@@ -1,0 +1,89 @@
+:root {
+  --color-burdeos: #5D001E;
+  --color-dorado: #D4AF37;
+  --color-marfil: #FDF6E3;
+  --color-gris-humo: #2E2E2E;
+  --color-ambar: #FFB347;
+  --color-texto-claro: #FDF6E3;
+  --color-texto-oscuro: #2E2E2E;
+  --color-hover: #D4AF37;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: var(--color-gris-humo);
+  color: var(--color-texto-claro);
+}
+
+h1, h2, h3, .navbar-brand {
+  font-family: 'Playfair Display', serif;
+}
+
+.navbar {
+  background-color: var(--color-burdeos) !important;
+}
+
+.navbar-brand,
+.nav-link {
+  color: var(--color-marfil) !important;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+  color: var(--color-hover) !important;
+}
+
+.btn-outline-success {
+  border-color: var(--color-ambar);
+  color: var(--color-ambar);
+}
+
+.btn-outline-success:hover {
+  background-color: var(--color-ambar);
+  color: var(--color-texto-oscuro);
+}
+
+.form-control {
+  background-color: var(--color-marfil);
+  color: var(--color-texto-oscuro);
+  border: 1px solid var(--color-ambar);
+}
+
+footer {
+  background-color: var(--color-burdeos);
+  color: var(--color-marfil);
+  padding: 1rem;
+  text-align: center;
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  background-color: #25D366;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  transition: transform 0.2s;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.2);
+}
+
+.carrito-float {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  z-index: 9999;
+  background-color: #25D366;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  transition: transform 0.2s;
+}
+
+.carrito-float:hover {
+  transform: scale(1.2);
+}
