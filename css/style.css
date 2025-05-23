@@ -9,6 +9,18 @@
   --color-hover: #D4AF37;
 }
 
+.navbar {
+  background-color: var(--color-burdeos)!important;
+}
+
+.color-ambar{ 
+  color: var(--color-ambar);
+}
+
+.fs-6{
+  font-size: 9px !important;
+}
+
 body {
   font-family: 'Lato', sans-serif;
   background-color: var(--color-gris-humo);
@@ -19,12 +31,7 @@ h1, h2, h3, .navbar-brand {
   font-family: 'Playfair Display', serif;
 }
 
-.navbar {
-  background-color: var(--color-burdeos) !important;
-}
-
-.navbar-brand,
-.nav-link {
+.navbar-brand, .nav-link {
   color: var(--color-marfil) !important;
 }
 
@@ -41,6 +48,18 @@ h1, h2, h3, .navbar-brand {
 .btn-outline-success:hover {
   background-color: var(--color-ambar);
   color: var(--color-texto-oscuro);
+}
+
+.btn-iniciar-sesion {
+  background-color: var(--color-ambar);
+  color: var(--color-burdeos);
+  border-color: var(--color-ambar);
+}
+
+.btn-iniciar-sesion:hover {
+  border-color: var(--color-ambar);
+  background-color: rgba(255, 215, 0, 0.1);
+  color: var(--color-ambar);
 }
 
 .form-control {
@@ -68,10 +87,6 @@ footer {
   transition: transform 0.2s;
 }
 
-.whatsapp-float:hover {
-  transform: scale(1.2);
-}
-
 .carrito-float {
   position: fixed;
   bottom: 90px;
@@ -84,6 +99,7 @@ footer {
   transition: transform 0.2s;
 }
 
-.carrito-float:hover {
+.whatsapp-float:hover, .carrito-float:hover {
   transform: scale(1.2);
 }
+
