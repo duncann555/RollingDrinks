@@ -17,10 +17,6 @@
   color: var(--color-ambar);
 }
 
-.fs-6{
-  font-size: 9px !important;
-}
-
 body {
   font-family: 'Lato', sans-serif;
   background-color: var(--color-gris-humo);
@@ -35,8 +31,7 @@ h1, h2, h3, .navbar-brand {
   color: var(--color-marfil) !important;
 }
 
-.nav-link:hover,
-.navbar-brand:hover {
+.nav-link:hover, .navbar-brand:hover {
   color: var(--color-hover) !important;
 }
 
@@ -50,13 +45,13 @@ h1, h2, h3, .navbar-brand {
   color: var(--color-texto-oscuro);
 }
 
-.btn-iniciar-sesion {
+.btn-crear-cuenta {
   background-color: var(--color-ambar);
   color: var(--color-burdeos);
   border-color: var(--color-ambar);
 }
 
-.btn-iniciar-sesion:hover {
+.btn-crear-cuenta:hover {
   border-color: var(--color-ambar);
   background-color: rgba(255, 215, 0, 0.1);
   color: var(--color-ambar);
