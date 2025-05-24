@@ -114,3 +114,25 @@ footer {
   background-color: var(--color-ambar);
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
+
+
+.carousel-img{
+  height: 300px;
+  width: 80%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  filter: invert(0);
+
+}
+
+@media (width >= 992px) {
+  .carousel-img{
+    height: 400px;
+    width: 50%;
+    object-position: center top 50% 20%;
+  }
+  
+}
