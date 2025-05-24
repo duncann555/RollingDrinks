@@ -87,7 +87,7 @@ footer {
 .whatsapp-float {
   position: fixed;
   bottom: 20px;
-  right: 20px;
+  right: 10px;
   z-index: 9999;
   background-color: #12bb50;
   border-radius: 50%;
@@ -99,7 +99,7 @@ footer {
 .carrito-float {
   position: fixed;
   bottom: 90px;
-  right: 20px;
+  right: 10px;
   z-index: 9999;
   background-color: #25D366;
   border-radius: 50%;
@@ -109,13 +109,8 @@ footer {
 }
 
 .whatsapp-float:hover, .carrito-float:hover {
-  transform: scale(1.2);
+  transform: scale(1.4);
 }
 
-@media (width>768px) {
-  .text-md-nowrap {
-    white-space: nowrap;
-  }
 
-}
 
