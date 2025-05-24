@@ -112,5 +112,12 @@ footer {
   transform: scale(1.4);
 }
 
+.btnIndex{
+  background-color: var(--color-dorado);
+  width: 100%;
+}
 
-
+.btnIndex:hover{
+  background-color: var(--color-ambar);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
