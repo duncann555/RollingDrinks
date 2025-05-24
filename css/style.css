@@ -117,8 +117,8 @@ footer {
 
 
 .carousel-img{
-  height: 300px;
-  width: 80%;
+  height: 260px;
+  width: 100%;
   object-fit: cover;
   object-position: center;
 }
@@ -128,11 +128,18 @@ footer {
 
 }
 
-@media (width >= 992px) {
+@media (min-width: 768px) {
   .carousel-img{
-    height: 400px;
-    width: 50%;
-    object-position: center top 50% 20%;
+    height: 380px;
+  }
+  
+}
+
+@media (min-width: 992px) {
+  .carousel-img{
+    height: 440px;
+    width: 100%;
+    object-position: center;
   }
   
 }
