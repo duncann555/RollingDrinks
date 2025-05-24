@@ -129,13 +129,6 @@ footer {
 
 }
 
-@media (min-width: 768px) {
-  .carousel-img{
-    height: 380px;
-  }
-  
-}
-
 @media (min-width: 992px) {
   .carousel-img{
     height: 440px;
