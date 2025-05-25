@@ -166,3 +166,33 @@ footer {
 .tituloCardIndex{
   color: var(--color-burdeos);
 }
+
+    .cart-box {
+      background-color: #cea976;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      color: black;
+    }
+    .item-img {
+      max-height: 60px;
+    }
+    .free-shipping {
+      color: green;
+      font-weight: bold;
+    }
+    .total-box {
+      background-color: #cea976;
+      color: black;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .btn-black {
+      background-color: black;
+      color: var(--color-marfil);
+    }
+    .divider {
+      border-top: 1px solid black;
+      margin: 15px 0;
+    }
