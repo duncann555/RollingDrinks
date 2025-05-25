@@ -115,21 +115,47 @@ footer {
 .btnIndex{
   background-color: var(--color-ambar);
   width: 100%;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+  transition: 300ms;
 }
 
 .btnIndex:hover{
-  background-color: var(--color-ambar);
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  background-color: var(--color-burdeos);
+  color: var(--color-marfil);
 }
 
 .page-link {
+  background-color: var(--color-burdeos);
+  color: white;
+  border: none;
+}
+
+.page-link.active {
   background-color: var(--color-ambar);
   color: black;
   border: none;
 }
 
-.page-link.active {
-  background-color: var(--color-burdeos);
-  color: white;
-  border: none;
+.img-categoria {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-Index{
+  background: rgba(255, 255, 255, 0.1); /* efecto glass */
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.card-Index:hover {
+  transform: scale(1.05);
+}
+
+.tituloCardIndex{
+  color: var(--color-burdeos);
 }
