@@ -21,6 +21,13 @@ body {
   font-family: 'Lato', 'sans-serif';
   background-color: var(--color-gris-humo);
   color: var(--color-marfil);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main{
+  flex-grow: 1;
 }
 
 h1, h2, h3, h4, h5, .navbar-brand {
