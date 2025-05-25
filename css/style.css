@@ -121,3 +121,15 @@ footer {
   background-color: var(--color-ambar);
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
+
+.page-link {
+  background-color: var(--color-ambar);
+  color: black;
+  border: none;
+}
+
+.page-link.active {
+  background-color: var(--color-burdeos);
+  color: white;
+  border: none;
+}
