@@ -54,6 +54,24 @@ h1, h2, h3, h4, h5, .navbar-brand {
   cursor: pointer;
 }
 
+.bg-unidad-carrito {
+  background-color: #cea976;
+  border-color: #12bb50;
+}
+
+.btn-color-burdeos {
+  background-color: var(--color-burdeos);
+  color: #cea976;
+  border-color: black;
+  transition: background-color 0.3s, color 0.3s;
+} 
+
+.btn-color-burdeos:hover {
+  background-color: var(--color-ambar);
+  color: var(--color-burdeos);
+  border-color: black;
+}
+
 
 
 .btn-outline-success {
