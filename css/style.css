@@ -1,12 +1,12 @@
 :root {
-  --color-burdeos: #5D001E;
-  --color-marfil: #FDF6E3;
-  --color-gris-humo: #2E2E2E;
-  --color-ambar: #FFB347;
+  --color-burdeos: #5d001e;
+  --color-marfil: #fdf6e3;
+  --color-gris-humo: #2e2e2e;
+  --color-ambar: #ffb347;
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   background-color: var(--color-gris-humo);
   color: var(--color-marfil);
   display: flex;
@@ -18,49 +18,34 @@ main {
   flex-grow: 1;
 }
 
-h1, h2, h3, h4, h5, .navbar-brand {
-  font-family: 'Playfair Display', serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+.navbar-brand {
+  font-family: "Playfair Display", serif;
 }
 
 .navbar {
   background-color: var(--color-burdeos) !important;
 }
 
-.input-form-footer{
-  width: 180px; 
-  padding: 8px; 
-  border: none; 
+.input-form-footer {
+  width: 180px;
+  padding: 8px;
+  border: none;
   border-radius: 20px 0 0 0px;
 }
 
-.btn-form-footer{
-  background-color: #FFB347; 
-  color: #000000; 
-  border: none; 
-  padding: 5px 13px; 
-  border-radius: 0 0px 20px 0; 
+.btn-form-footer {
+  background-color: #ffb347;
+  color: #000000;
+  border: none;
+  padding: 5px 13px;
+  border-radius: 0 0px 20px 0;
   cursor: pointer;
 }
-
-.bg-unidad-carrito {
-  background-color: #cea976;
-  border-color: #12bb50;
-}
-
-.btn-color-burdeos {
-  background-color: var(--color-burdeos);
-  color: #cea976;
-  border-color: black;
-  transition: background-color 0.3s, color 0.3s;
-} 
-
-.btn-color-burdeos:hover {
-  background-color: var(--color-ambar);
-  color: var(--color-burdeos);
-  border-color: black;
-}
-
-
 
 .btn-outline-success {
   border-color: var(--color-ambar);
@@ -86,7 +71,6 @@ footer {
 .btn-outline-success {
   border-color: var(--color-ambar);
   color: var(--color-ambar);
-
 }
 
 .btn-outline-success:hover {
@@ -129,6 +113,19 @@ footer {
   border-radius: 15px;
 }
 
+.btn-color-burdeos {
+  background-color: var(--color-burdeos);
+  color: #cea976;
+  border-color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-color-burdeos:hover {
+  background-color: var(--color-ambar);
+  color: var(--color-burdeos);
+  border-color: black;
+}
+
 .input-form-footer {
   width: 180px;
   padding: 8px;
@@ -143,6 +140,10 @@ footer {
   padding: 5px 13px;
   border-radius: 0 0 20px 0;
   cursor: pointer;
+}
+
+.letra {
+  color: var(--color-burdeos);
 }
 
 .whatsapp-float,
@@ -163,7 +164,7 @@ footer {
 
 .carrito-float {
   bottom: 90px;
-  background-color: #25D366;
+  background-color: #25d366;
 }
 
 .whatsapp-float:hover,
@@ -252,21 +253,17 @@ a:hover {
   text-decoration: underline;
 }
 
-
-.carousel-control-prev-icon, .carousel-control-next-icon{
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
   filter: invert(0);
-
 }
 
 @media (min-width: 992px) {
-  .carousel-img{
+  .carousel-img {
     height: 350px;
     object-position: center;
-    
   }
 }
-
-/*publicidades*/
 
 .pub-img {
   height: 230px;
@@ -274,5 +271,4 @@ a:hover {
   object-position: center;
   width: 100%;
   border-radius: 10px;
-
 }
