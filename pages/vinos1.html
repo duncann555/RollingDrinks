@@ -133,11 +133,13 @@
           </div>
           <!-- Vino2 -->
           <div class="col-12 col-md-6 col-lg-3">
-            <article class="card h-100">
+            <article class="card h-100 cardCategoria">
               <img
                 src="../img/vinoCatena.webp"
-                class="card-img-top"
+                class="card-img-top imgCardCategoria"
                 alt="vino Catena Cabernet"
+                data-bs-toggle="modal"
+                data-bs-target="#modalVino2"
               />
               <div class="card-body d-flex flex-column flex-grow-1">
                 <h5 class="card-title">$26.800</h5>
@@ -150,7 +152,7 @@
           </div>
           <!-- Vino3 -->
           <div class="col-12 col-md-6 col-lg-3">
-            <article class="card h-100">
+            <article class="card h-100 cardCategoria">
               <img
                 src="../img/vinoCatenaMalbec.webp"
                 class="card-img-top"
@@ -167,7 +169,7 @@
           </div>
           <!-- Vino4 -->
           <div class="col-12 col-md-6 col-lg-3">
-            <article class="card h-100">
+            <article class="card h-100 cardCategoria">
               <img
                 src="../img/VinoElEnemigo.webp"
                 class="card-img-top"
@@ -217,6 +219,40 @@
                           <li>Bodega Catena Zapata, líder en vinos de alta calidad</li>
                           <li>Graduación alcohólica equilibrada de 14%</li>
                           <li>Servir a 16°C para disfrutar de sus aromas y sabores</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+              <a href="#" class="btn btnIndex w-50">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+      </div>
+       <!-- Vino2 -->
+      <div class="modal fade" id="modalVino2" tabindex="-1" aria-labelledby="modalVino2Label" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="modalVino1Label">Selección de vinos</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="card mb-3" form="cardVino1">
+                  <div class="row g-0">
+                    <div class="col-md-4 align-content-center">
+                      <img src="../img/vinoAngelicaZapata.webp" class="img-fluid rounded-start" alt="VinoAngelicaZapata">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">D.V. Catena Cabernet Malbec 750ml</h5>
+                        <h5 class="fw-bold">$26.800</h5>
+                        <ul class="card-text">
+                          <li>Añejamiento: 16 meses en 90% Roble francés y 10% roble americano</li>
+                          <li>Graduación alcohólica: 14%</li>
+                          <li>Temperatura ideal de consumo: 16°</li>
                         </ul>
                       </div>
                     </div>
