@@ -211,3 +211,17 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  filter: invert(0);
+
+}
+
+@media (min-width: 992px) {
+  .carousel-img{
+    height: 350px;
+    object-position: center;
+    
+  }
+}
