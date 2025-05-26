@@ -196,3 +196,25 @@ footer {
       border-top: 1px solid black;
       margin: 15px 0;
     }
+
+    /*estilo carousel*/
+
+.carousel-img{
+  height: 260px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  filter: invert(0);
+
+}
+
+@media (min-width: 992px) {
+  .carousel-img{
+    height: 350px;
+    object-position: center;
+    
+  }
+}
