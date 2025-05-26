@@ -125,7 +125,7 @@ footer {
 .form-control {
   background-color: var(--color-marfil);
   color: var(--color-burdeos);
-  border: 2px solid var(--color-ambar);
+  border: 2px solid var(--color-burdeos);
   border-radius: 15px;
 }
 
