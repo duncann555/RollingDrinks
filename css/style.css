@@ -228,7 +228,11 @@ a:hover {
 
 /*publicidades*/
 
-.carousel-img {
-  
+.pub-img {
+  height: 250px;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  border-radius: 10px;
 
 }
