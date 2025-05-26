@@ -121,7 +121,7 @@ footer {
 
 .form-control:focus {
   border-color: var(--color-ambar);
-  box-shadow: none;
+  box-shadow: 0 0 5px var(--color-ambar);
 }
 
 .btn-color-burdeos {
@@ -142,6 +142,11 @@ footer {
   padding: 8px;
   border: none;
   border-radius: 20px 0 0 0;
+}
+
+.input-form-footer:focus {
+  outline: none;
+  box-shadow: 0 0 5px var(--color-ambar);
 }
 
 .btn-form-footer {
