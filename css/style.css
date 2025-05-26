@@ -213,25 +213,22 @@ footer {
     .btn-login {
       background-color: var(--color-ambar);
       color: var(--color-burdeos);
-      border-radius: 0;
+      border-radius: 15px;
     }
     .btn-login:hover {
-      background-color: #333;
+      background-color: rgba(255, 215, 0, 0.1);
+      color: var(--color-ambar);
+      border-color: var(--color-ambar);
     }
-    .eye-icon {
-      position: absolute;
-      right: 15px;
-      top: 50%;
-      transform: translateY(-50%);
-      cursor: pointer;
-      color: var(--color-marfil);
-    }
-    hr.separator {
+    
+    .separador {
       border-top: 2px solid var(--color-ambar);
+
       margin: 40px 0;
     }
+
     a {
-      color: #var(var(--color-marfil));
+      color: (var(--color-marfil));
       text-decoration: none;
     }
     a:hover {
