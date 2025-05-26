@@ -46,7 +46,7 @@ footer {
 .btn-outline-success {
   border-color: var(--color-ambar);
   color: var(--color-ambar);
-  
+
 }
 
 .btn-outline-success:hover {
@@ -131,7 +131,6 @@ footer {
   transform: scale(1.4);
 }
 
-/* Paginación */
 .page-link {
   background-color: var(--color-burdeos);
   color: white;
@@ -196,17 +195,14 @@ footer {
   margin: 15px 0;
 }
 
-/* Login */
 .contenedor-login {
   max-width: 500px;
 }
 
-/* Separador visual */
 .separador {
   border-top: 1px solid var(--color-ambar);
 }
 
-/* Enlaces */
 a {
   color: var(--color-marfil);
   text-decoration: none;
