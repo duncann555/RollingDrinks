@@ -236,3 +236,20 @@ a:hover {
   border-radius: 10px;
 
 }
+.banner-img {
+  max-height: 500px;
+  object-fit: cover;
+  width: 100%;
+  opacity: 0.4;
+  margin-top: 70px;
+}
+
+.text-ambar {
+  color: #FFB347;
+}
+/* Color ámbar para textos del formulario de contacto */
+#formulario label,
+#formulario .form-control,
+#formulario .form-control::placeholder {
+  color: #FFB347 !important;
+}
