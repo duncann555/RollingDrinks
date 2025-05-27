@@ -5,76 +5,35 @@
   --color-ambar: #FFB347;
 }
 
-.navbar {
-  background-color: var(--color-burdeos)!important;
-}
-
-.navbar-brand, .nav-link {
-  color: var(--color-ambar) ;
-}
-
-.nav-link:hover, .navbar-brand:hover {
-  color: var(--color-marfil);
-}
-
 body {
-  font-family: 'Lato', 'sans-serif';
+  font-family: 'Lato', sans-serif;
   background-color: var(--color-gris-humo);
   color: var(--color-marfil);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
 }
 
 h1, h2, h3, h4, h5, .navbar-brand {
   font-family: 'Playfair Display', serif;
 }
 
-.footer h2{
-  color: var(--color-dorado);
+.navbar {
+  background-color: var(--color-burdeos) !important;
 }
 
-.input-form-footer{
-  width: 180px; 
-  padding: 8px; 
-  border: none; 
-  border-radius: 20px 0 0 0px;
-}
-
-.btn-form-footer{
-  background-color: #FFB347; 
-  color: #000000; 
-  border: none; 
-  padding: 5px 13px; 
-  border-radius: 0 0px 20px 0; 
-  cursor: pointer;
-}
-
-
-
-.btn-outline-success {
-  border-color: var(--color-ambar);
+.navbar-brand,
+.nav-link {
   color: var(--color-ambar);
 }
 
-.btn-outline-success:hover {
-  background-color: var(--color-ambar);
-  color: var(--color-texto-oscuro);
-}
-
-.btn-crear-cuenta {
-  background-color: var(--color-ambar);
-  color: var(--color-burdeos);
-  border-color: var(--color-ambar);
-}
-
-.btn-crear-cuenta:hover {
-  border-color: var(--color-ambar);
-  background-color: rgba(255, 215, 0, 0.1);
-  color: var(--color-ambar);
-}
-
-.form-control {
-  background-color: var(--color-marfil);
-  color: var(--color-burdeos);
-  border: 2px solid var(--color-ambar);
+.navbar-brand:hover,
+.nav-link:hover {
+  color: var(--color-marfil);
 }
 
 footer {
@@ -84,40 +43,196 @@ footer {
   text-align: center;
 }
 
-.whatsapp-float {
+.btn-outline-success {
+  border-color: var(--color-ambar);
+  color: var(--color-ambar);
+
+}
+
+.btn-outline-success:hover {
+  background-color: var(--color-ambar);
+  color: var(--color-burdeos);
+}
+
+.btn-crear-cuenta,
+.btn-login,
+.btnIndex {
+  background-color: var(--color-ambar);
+  color: var(--color-burdeos);
+  border-color: var(--color-ambar);
+  border-radius: 15px;
+}
+
+.btn-crear-cuenta:hover,
+.btn-login:hover,
+.btnIndex:hover {
+  background-color: rgba(255, 215, 0, 0.1);
+  color: var(--color-ambar);
+  border-color: var(--color-ambar);
+}
+
+.btnIndex {
+  width: 100%;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+  transition: 300ms;
+}
+
+.btnIndex:hover {
+  background-color: var(--color-burdeos);
+  color: var(--color-marfil);
+}
+
+.form-control {
+  background-color: var(--color-marfil);
+  color: var(--color-burdeos);
+  border: 2px solid var(--color-ambar);
+  border-radius: 15px;
+}
+
+.input-form-footer {
+  width: 180px;
+  padding: 8px;
+  border: none;
+  border-radius: 20px 0 0 0;
+}
+
+.btn-form-footer {
+  background-color: var(--color-ambar);
+  color: #000;
+  border: none;
+  padding: 5px 13px;
+  border-radius: 0 0 20px 0;
+  cursor: pointer;
+}
+
+.whatsapp-float,
+.carrito-float {
   position: fixed;
-  bottom: 20px;
   right: 10px;
   z-index: 9999;
-  background-color: #12bb50;
   border-radius: 50%;
   padding: 10px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
   transition: transform 0.2s;
+}
+
+.whatsapp-float {
+  bottom: 20px;
+  background-color: #12bb50;
 }
 
 .carrito-float {
-  position: fixed;
   bottom: 90px;
-  right: 10px;
-  z-index: 9999;
   background-color: #25D366;
-  border-radius: 50%;
-  padding: 10px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
-  transition: transform 0.2s;
 }
 
-.whatsapp-float:hover, .carrito-float:hover {
+.whatsapp-float:hover,
+.carrito-float:hover {
   transform: scale(1.4);
 }
 
-.btnIndex{
-  background-color: var(--color-dorado);
-  width: 100%;
+.page-link {
+  background-color: var(--color-burdeos);
+  color: white;
+  border: none;
 }
 
-.btnIndex:hover{
+.page-link.active {
   background-color: var(--color-ambar);
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  color: black;
+  border: none;
+}
+
+.img-categoria {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-Index {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.card-Index:hover {
+  transform: scale(1.05);
+}
+
+.tituloCardIndex {
+  color: var(--color-burdeos);
+}
+
+.cart-box,
+.total-box {
+  background-color: #cea976;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.item-img {
+  max-height: 60px;
+}
+
+.free-shipping {
+  color: green;
+  font-weight: bold;
+}
+
+.btn-black {
+  background-color: black;
+  color: var(--color-marfil);
+}
+
+.divider {
+  border-top: 1px solid black;
+  margin: 15px 0;
+}
+
+.contenedor-login {
+  max-width: 500px;
+}
+
+.separador {
+  border-top: 1px solid var(--color-ambar);
+}
+
+a {
+  color: var(--color-marfil);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  filter: invert(0);
+
+}
+
+@media (min-width: 992px) {
+  .carousel-img{
+    height: 350px;
+    object-position: center;
+    
+  }
+}
+
+/*publicidades*/
+
+.pub-img {
+  height: 230px;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  border-radius: 10px;
+
 }
