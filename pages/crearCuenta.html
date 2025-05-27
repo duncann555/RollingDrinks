@@ -76,7 +76,7 @@
                 type="search"
                 placeholder="¿Que estás buscando?"
                 aria-label="Search"
-                style="background-color: #cea976;"
+                style="background-color: #cea976"
               />
               <button class="btn btn-outline-success" type="button">
                 <i class="bi bi-search"></i>
@@ -124,73 +124,63 @@
         </a>
       </nav>
     </header>
-    <main>
-        <!-- Cervezas -->
-      <section class="container my-3">
-        <h2>Cervezas</h2>
-          <div class="row row-gap-3">
-            <!-- Página 2 de Cervezas -->
-            <!-- Cerveza5 -->
-            <div class="col-12 col-md-6 col-lg-3">
-              <article class="card h-100 cardCategoria">
-                <img src="../img/cervezaKölschAntares.webp" class="card-img-top" alt="cerveza Kölsch Antares">
-                <div class="card-body d-flex flex-column flex-grow-1">
-                  <h5 class="card-title">$3.900</h5>
-                  <p class="card-text">Cerveza Antares Kolsch 473 ml Pack</p>
-                  <div class="mt-auto">
-                    <a href="./carrito.html" class="btn btnIndex ">Agregar al carrito</a>  
-                  </div>
-                </div>
-              </article>   
-            </div>
-                <!-- Cerveza6 -->
-            <div class="col-12 col-md-6 col-lg-3">
-              <article class="card h-100 cardCategoria">
-                <img src="../img/cervezaAmstel.webp" class="card-img-top" alt="cerveza Amstel">
-                <div class="card-body d-flex flex-column flex-grow-1">
-                  <h5 class="card-title">$2.100</h5>
-                  <p class="card-text">Cerveza Amstel Lager Lata 473ml</p>
-                  <div class="mt-auto">
-                    <a href="./carrito.html" class="btn btnIndex ">Agregar al carrito</a>  
-                  </div>
-                </div>
-              </article>
-            </div>
-                <!-- Cerveza7 -->
-            <div class="col-12 col-md-6 col-lg-3">
-              <article class="card h-100 cardCategoria">
-                <img src="../img/cervezaQuilmes.webp" class="card-img-top" alt="cerveza Quilmes">
-                <div class="card-body d-flex flex-column flex-grow-1">
-                  <h5 class="card-title">$2.000</h5>
-                  <p class="card-text">Cerveza Quilmes Clásica Lager rubia lata 473 ml</p>
-                  <div class="mt-auto">
-                   <a href="./carrito.html" class="btn btnIndex ">Agregar al carrito</a>  
-                   </div>
-                </div>
-              </article>     
-            </div>
-                <!-- Cerveza8 -->
-            <div class="col-12 col-md-6 col-lg-3">
-              <article class="card h-100 cardCategoria">
-                <img src="../img/cervezaCorona.webp" class="card-img-top" alt="cerveza Corona">
-                <div class="card-body d-flex flex-column flex-grow-1">
-                  <h5 class="card-title">$2.300</h5>
-                  <p class="card-text">Cerveza Corona American Adjunct Lager botella 330 ml</p>
-                  <a href="./carrito.html" class=" btn btnIndex">Agregar al carrito</a>
-                </div>
-              </article>    
-              </div>
-            </div>
-            <!-- Paginación -->
-            <nav aria-label="Pagina 2 Vinos">
-              <ul class="pagination justify-content-center my-3">
-                <li class="page-item"><a class="page-link" href="./cervezas1.html">1</a></li>
-                <li class="page-item"><a class="page-link active" href="./cervezas2.html">2</a></li>
-              </ul>
-            </nav>
-      </section>
-    </main>
-     <footer class="py-3 text-center text-md-start">
+  <main class="container my-5 contenedor-login">
+  <h2 class="text-center mb-4">Crear Cuenta</h2>
+<form>
+  <div class="row">
+    <div class="col-12 mb-3">
+      <label for="nombre" class="form-label">Nombre</label>
+      <input type="text" class="form-control rounded-2" id="nombre" placeholder="Nombre" required minlength="2" maxlength="30" />
+    </div>
+
+    <div class="col-12 mb-3">
+      <label for="apellido" class="form-label">Apellido</label>
+      <input type="text" class="form-control rounded-2" id="apellido" placeholder="Apellido" required minlength="2" maxlength="30" />
+    </div>
+
+    <div class="col-12 mb-3">
+      <label for="usuario" class="form-label">Nombre de Usuario</label>
+      <input type="text" class="form-control rounded-2" id="usuario" placeholder="Usuario" required minlength="4" maxlength="20" />
+    </div>
+
+    <div class="col-12 mb-3">
+      <label for="email" class="form-label">Correo Electrónico</label>
+      <input type="email" class="form-control rounded-2" id="email" placeholder="Email" required maxlength="50" />
+    </div>
+
+    <div class="col-12 mb-3">
+      <label for="Celular" class="form-label">Celular</label>
+      <input type="tel" class="form-control rounded-2" id="telefono" placeholder="381-xxxxxxx" required minlength="8" maxlength="15" />
+    </div>
+
+    <div class="col-12 mb-3">
+      <label for="domicilio" class="form-label">Domicilio</label>
+      <input type="text" class="form-control rounded-2" id="domicilio" placeholder="Dirección" required minlength="5" maxlength="50" />
+    </div>
+
+    <div class="col-12 mb-3">
+      <label for="codigoPostal" class="form-label">Código Postal</label>
+      <input type="text" class="form-control rounded-2" id="codigoPostal" placeholder="Código Postal" required minlength="4" maxlength="10" />
+    </div>
+
+    <div class="col-12 mb-3">
+      <label for="contrasena" class="form-label">Contraseña</label>
+      <input type="password" class="form-control rounded-2" id="contrasena" placeholder="Mínimo 8 caracteres" required minlength="8" maxlength="32" />
+    </div>
+
+    <div class="col-12 mb-3">
+      <label for="confirmarContrasena" class="form-label">Confirmar Contraseña</label>
+      <input type="password" class="form-control rounded-2" id="confirmarContrasena" placeholder="Repetir contraseña" required minlength="8" maxlength="32" />
+    </div>
+  </div>
+
+  <button type="submit" class="btn btn-crear-cuenta w-100 mt-3">Crear Cuenta</button>
+</form>
+
+
+</main>
+
+    <footer class="py-3 text-center text-md-start">
       <div class="container">
         <div class="row">
           <div class="col-12 d-flex justify-content-center">
@@ -206,40 +196,22 @@
           <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3">
             <ul class="list-unstyled d-flex flex-column align-items-center">
               <li>
-                <a
-                  href="../pages/404.html"
-                  class="nav-link fw-bold"
+                <a href="../pages/404.html" class="nav-link fw-bold"
                   >INSTITUCIONAL</a
                 >
               </li>
               <li>
-                <a
-                  href="../pages/404.html"
-                  class="nav-link"
-                  >Sucursales</a
-                >
+                <a href="../pages/404.html" class="nav-link">Sucursales</a>
               </li>
               <li>
-                <a
-                  href="../pages/contacto.html"
-                  class="nav-link"
-                  >Contacto</a
-                >
+                <a href="../pages/contacto.html" class="nav-link">Contacto</a>
               </li>
               <li>
-                <a
-                  href="../pages/404.html"
-                  class="nav-link"
-                  >Legales</a
-                >
+                <a href="../pages/404.html" class="nav-link">Legales</a>
               </li>
 
               <li>
-                <a
-                  href="../pages/nosotros.html"
-                  class="nav-link"
-                  >Nosotros</a
-                >
+                <a href="../pages/nosotros.html" class="nav-link">Nosotros</a>
               </li>
             </ul>
           </div>
@@ -251,30 +223,18 @@
           <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3">
             <ul class="list-unstyled d-flex flex-column align-items-center">
               <li>
-                <a
-                  href="../pages/404.html"
-                  class="nav-link fw-bold"
+                <a href="../pages/404.html" class="nav-link fw-bold"
                   >INFORMACION UTIL</a
                 >
               </li>
               <li>
-                <a
-                  href="../pages/404.html"
-                  class="nav-link"
-                  >Envios</a
-                >
+                <a href="../pages/404.html" class="nav-link">Envios</a>
               </li>
               <li>
-                <a
-                  href="../pages/404.html"
-                  class="nav-link"
-                  >Medios de pago</a
-                >
+                <a href="../pages/404.html" class="nav-link">Medios de pago</a>
               </li>
               <li>
-                <a
-                  href="../pages/404.html"
-                  class="nav-link"
+                <a href="../pages/404.html" class="nav-link"
                   >Promociones bancarias</a
                 >
               </li>
@@ -288,32 +248,24 @@
           <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3">
             <ul class="list-unstyled d-flex flex-column align-items-center">
               <li>
-                <a
-                  href="../pages/404.html"
-                  class="nav-link fw-bold"
+                <a href="../pages/404.html" class="nav-link fw-bold"
                   >SEGUINOS EN NUESTRAS REDES</a
                 >
               </li>
 
               <div class="d-flex justify-content-center gap-3">
                 <li>
-                  <a
-                    href="../pages/404.html"
-                    class="nav-link"
+                  <a href="../pages/404.html" class="nav-link"
                     ><i class="bi bi-instagram fs-4"></i
                   ></a>
                 </li>
                 <li>
-                  <a
-                    href="../pages/404.html"
-                    class="nav-link"
+                  <a href="../pages/404.html" class="nav-link"
                     ><i class="bi bi-twitter fs-4"></i
                   ></a>
                 </li>
                 <li>
-                  <a
-                    href="../pages/404.html"
-                    class="nav-link"
+                  <a href="../pages/404.html" class="nav-link"
                     ><i class="bi bi-twitch fs-4"></i
                   ></a>
                 </li>
@@ -330,15 +282,13 @@
               class="list-unstyled d-flex flex-column align-items-center text-center"
             >
               <li>
-                <a
-                  href="../pages/404.html"
-                  class="nav-link fw-bold"
+                <a href="../pages/404.html" class="nav-link fw-bold"
                   >SUSCRIBITE</a
                 >
               </li>
 
               <li>
-                <p class="px-5" style="color: var(--color-ambar);">
+                <p class="px-5" style="color: var(--color-ambar)">
                   Recibí ofertas exclusivas y novedades antes que nadie
                 </p>
 
@@ -347,7 +297,7 @@
                     class="input-form-footer"
                     type="email"
                     placeholder="Email"
-                    style="background-color: #cea976;"
+                    style="background-color: #cea976"
                   />
                   <button class="btn-form-footer" type="submit">OK</button>
                 </form>

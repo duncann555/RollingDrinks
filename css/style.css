@@ -1,12 +1,12 @@
 :root {
-  --color-burdeos: #5D001E;
-  --color-marfil: #FDF6E3;
-  --color-gris-humo: #2E2E2E;
-  --color-ambar: #FFB347;
+  --color-burdeos: #5d001e;
+  --color-marfil: #fdf6e3;
+  --color-gris-humo: #2e2e2e;
+  --color-ambar: #ffb347;
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   background-color: var(--color-gris-humo);
   color: var(--color-marfil);
   display: flex;
@@ -18,12 +18,37 @@ main {
   flex-grow: 1;
 }
 
-h1, h2, h3, h4, h5, .navbar-brand {
-  font-family: 'Playfair Display', serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+.navbar-brand {
+  font-family: "Playfair Display", serif;
 }
 
 .navbar {
   background-color: var(--color-burdeos) !important;
+}
+
+.input-form-footer {
+  width: 180px;
+  padding: 8px;
+  border: none;
+  border-radius: 20px 0 0 0px;
+}
+
+.btn-form-footer {
+  background-color: #ffb347;
+  color: #000000;
+  border: none;
+  padding: 5px 13px;
+  border-radius: 0 0px 20px 0;
+  cursor: pointer;
+}
+
+.btn-outline-success {
+  border-color: var(--color-ambar);
 }
 
 .navbar-brand,
@@ -46,7 +71,6 @@ footer {
 .btn-outline-success {
   border-color: var(--color-ambar);
   color: var(--color-ambar);
-
 }
 
 .btn-outline-success:hover {
@@ -85,8 +109,32 @@ footer {
 .form-control {
   background-color: var(--color-marfil);
   color: var(--color-burdeos);
-  border: 2px solid var(--color-ambar);
+  border: 2px solid var(--color-burdeos);
   border-radius: 15px;
+}
+
+.form-control::placeholder {
+  color: var(--color-burdeos);
+  opacity: 0.7;
+}
+
+.form-control:focus {
+  border-color: var(--color-ambar);
+  box-shadow: 0 0 5px var(--color-ambar);
+}
+
+
+.btn-color-burdeos {
+  background-color: var(--color-burdeos);
+  color: #cea976;
+  border-color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-color-burdeos:hover {
+  background-color: var(--color-ambar);
+  color: var(--color-burdeos);
+  border-color: black;
 }
 
 .input-form-footer {
@@ -96,6 +144,11 @@ footer {
   border-radius: 20px 0 0 0;
 }
 
+.input-form-footer:focus {
+  outline: none;
+  box-shadow: 0 0 5px var(--color-ambar);
+}
+
 .btn-form-footer {
   background-color: var(--color-ambar);
   color: #000;
@@ -103,6 +156,10 @@ footer {
   padding: 5px 13px;
   border-radius: 0 0 20px 0;
   cursor: pointer;
+}
+
+.letra {
+  color: var(--color-burdeos);
 }
 
 .whatsapp-float,
@@ -123,7 +180,7 @@ footer {
 
 .carrito-float {
   bottom: 90px;
-  background-color: #25D366;
+  background-color: #25d366;
 }
 
 .whatsapp-float:hover,
@@ -165,6 +222,19 @@ footer {
 
 .tituloCardIndex {
   color: var(--color-burdeos);
+}
+
+.cardCategoria {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.cardCategoria:hover {
+  transform: scale(1.05);
+}
+
+.imgCardCategoria {
+  cursor: pointer;
 }
 
 .cart-box,
@@ -210,23 +280,20 @@ a {
 
 a:hover {
   text-decoration: underline;
+  color: #9b6213!important;
 }
 
-
-.carousel-control-prev-icon, .carousel-control-next-icon{
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
   filter: invert(0);
-
 }
 
 @media (min-width: 992px) {
-  .carousel-img{
+  .carousel-img {
     height: 350px;
     object-position: center;
-    
   }
 }
-
-/*publicidades*/
 
 .pub-img {
   height: 230px;
@@ -234,8 +301,16 @@ a:hover {
   object-position: center;
   width: 100%;
   border-radius: 10px;
-
 }
+
+.hamburguesa {
+  border: 2px solid var(--color-ambar);
+}
+
+.hamburguesa .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,179,71, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
 .banner-img {
   max-height: 500px;
   object-fit: cover;
@@ -247,6 +322,7 @@ a:hover {
 .text-ambar {
   color: #FFB347;
 }
+
 /* Color ámbar para textos del formulario de contacto */
 #formulario label,
 #formulario .form-control,

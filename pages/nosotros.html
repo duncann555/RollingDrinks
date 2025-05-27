@@ -16,10 +16,12 @@
     <meta name="description" content="Vinos, cervezas y whiskys a domicilio" />
     <meta name="keywords" content="Vinos, cervezas, whiskys, delivery" />
     <meta name="author" content="Rolling Drinks" />
+    <link rel="icon" href="../img/wine.png" type="image/svg+xml" />
     <title>Rolling Drinks</title>
   </head>
-  <body>
-   <header>
+
+  <body class="d-flex flex-column min-vh-100">
+    <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary bg-bordo">
         <div class="container-fluid mx-3">
           <a class="navbar-brand fst-italic mx-auto" href="../index.html"
@@ -60,7 +62,7 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
               </li>
             </ul>
 
@@ -122,197 +124,24 @@
         </a>
       </nav>
     </header>
-    <main class="flex-grow-1 container my-4">
-              <!-- Sección Cervezas -->
-        <section class="container my-3">
-        <h2>Cervezas</h2>
-        <div class="row row-gap-3">
-          <!-- Página 1 de cervezas -->
-          <!-- Cerveza1 -->
-          <div class="col-12 col-md-6 col-lg-3">
-            <article class="card h-100 cardCategoria">
-              <img
-                src="../img/cervezaScottishTemple.webp"
-                class="card-img-top"
-                alt="cervezaScottishTemple"
-              />
-              <div class="card-body d-flex flex-column flex-grow-1">
-                <h5 class="card-title">$2.800</h5>
-                <p class="card-text">
-                  Cerveza Temple Scottish Ale roja lata 473 ml
-                </p>
-                <div class="mt-auto">
-                  <a href="./carrito.html" class="btn btnIndex">Agregar al carrito</a>
-                </div>
-              </div>
+    <main class="container d-flex flex-column my-4">
+        <h1 class="text-center m-auto my-4 text-info">Détras de Rolling Drinks</h1>
+        <section class="text-light">
+            <article class="p-2 col-12">
+                <p><strong class="text-success">Rolling Drinks</strong> nacio de la pasion por compartir buenos momentos y el amor por las bebidas de calidad. Somos un equipo de cuatro personas unidas por el intéres en el mundo del vino, la cerveza y los destilados premium. Creamos esta tienda online con el objetivo de ofrecer una experiencia de compra simple, segura y personalizada para quienes disfrutan de una buena copa, ya sea para relajarse, celebrar o descubrir nuevos sabores</p>
+                <p> En Rolling Drinks no solo bendemos bebidas: compartimos historia, cultura y momentos. Sabemos que cada etiqueta tiene una historia detrás, y cada botella puede marcar la diferencia en una reunion o una noche especial. Por eso, seleccionamos cuidadosamente nuestros productos, trabajando con marcas reconocidas y bodegas destacadas para brindarte solo lo mejor.</p>
+                <h2 class="text-center text-info"> Lo que nos Mueve</h2>
+                <p>Nuestro compromiso es acercarte una cuidada selección de vinos, cervezas y whiskies que se adapten a todos los gustos y ocasiones. Nos apasiona lo que hacemos, y queremos que lo sientas en cada pedido que recibís. Desde etiquetas clásicas hasta nuevas propuestas por descubrir, estamos acá para ayudarte a encontrar esa bebida que encaje perfecto con tu momento.
+                <strong class="text-success">Bienvenidos a Rolling Drinks: donde cada botella tiene un motivo, y cada brindis, una historia. </strong></p>
+                <p>Creemos en el poder de una buena bebida para reunir, conectar, celebrar. Nos inspira la tradicion cervecera, el arte del vino, la maestria del whisky. Nos mueve la pasion por lo autentico, por lo bien hecho, por lo que deja huella. <b class="text-success">Esto es mas que una carta de bebidas...</b></p>
             </article>
-          </div>
-          <!-- Cerveza2 -->
-          <div class="col-12 col-md-6 col-lg-3">
-            <article class="card h-100 cardCategoria">
-              <img
-                src="../img/cervezaIpaTemple.webp"
-                class="card-img-top imgCardCategoria"
-                alt="cerveza Ipa Temple"
-                data-bs-toggle="modal"
-                data-bs-target="#modalCerveza2"
-              />
-              <div class="card-body d-flex flex-column flex-grow-1">
-                <h5 class="card-title">$2.800</h5>
-                <p class="card-text">Cerveza Temple Wolf IPA rubia lata 473 ml/p>
-                <div class="mt-auto">
-                  <a href="./carrito.html" class="btn btnIndex">Agregar al carrito</a>
-                </div>
-              </div>
-            </article>
-          </div>
-          <!-- Cerveza3 -->
-          <div class="col-12 col-md-6 col-lg-3">
-            <article class="card h-100 cardCategoria">
-              <img
-                src="../img/cervezaScotchAntares.webp"
-                class="card-img-top imgCardCategoria"
-                alt="cerveza Scotch Antares"
-                data-bs-toggle="modal"
-                data-bs-target="#modalCerveza3"
-              />
-              <div class="card-body d-flex flex-column flex-grow-1">
-                <h5 class="card-title">$4.200</h5>
-                <p class="card-text">Antares Scoth Antares lata</p>
-                <div class="mt-auto">
-                  <a href="./carrito.html" class="btn btnIndex">Agregar al carrito</a>
-                </div>
-              </div>
-            </article>
-          </div>
-          <!-- Cerveza4 -->
-          <div class="col-12 col-md-6 col-lg-3">
-            <article class="card h-100 cardCategoria">
-              <img
-                src="../img/cervezaIpaAntares.webp"
-                class="card-img-top"
-                alt="cerveza Ipa Antares"
-              />
-              <div class="card-body d-flex flex-column flex-grow-1">
-                <h5 class="card-title">$4.200</h5>
-                <p class="card-text">Cerveza Artesanal Antares Ipa 473cc X 6 Lata</p>
-                <div class="mt-auto">
-                  <a href="./carrito.html" class="btn btnIndex">Agregar al carrito</a>
-                </div>
-              </div>
-            </article>
-          </div>
-        </div>
-        <nav aria-label="Pagina 1 Vinos">
-          <ul class="pagination justify-content-center my-3">
-            <li class="page-item">
-              <a class="page-link active" href="./cervezas1.html">1</a>
-            </li>
-            <li class="page-item">
-              <a class="page-link" href="./cervezas2.html">2</a>
-            </li>
-          </ul>
-        </nav>
-        </section> 
-      <!-- Modal -->
-       <!-- Cerveza2 -->
-      <div class="modal fade" id="modalCerveza2" tabindex="-1" aria-labelledby="modalCerveza2Label" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5" id="modalCerveza2Label">Selección de Cervezas</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div class="card mb-3" form="cardCerveza2">
-                  <div class="row g-0">
-                    <div class="col-md-4 align-content-center">
-                      <img src="../img/cervezaIpaTemple.webp" class="img-fluid rounded-start" alt="cerveza Ipa Temple">
-                    </div>
-                    <div class="col-md-8">
-                      <div class="card-body">
-                        <h5 class="card-title">Cerveza Temple Wolf IPA rubia lata 473 ml</h5>
-                        <h5 class="fw-bold">$2.800</h5>
-                        <ul class="card-text">
-                          <li>Unidades por pack: 1</li>
-                          <li>Producida en Argentina</li>
-                          <li>ABV 5.8%</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-            </div>
-            <div class="modal-footer">
-              <a href="./carrito.html" class="btn btnIndex w-50">Agregar al carrito</a>
-            </div>
-            <!-- Comentatios de la segunda cerveza-->
-            <div class="fst-italic py-2 border-top border-1 border-dark-subtle">
-              <h6 class="ms-4">Comentarios:</h6>
-              <div class="mb-3">
-                <div class="border p-2 mb-2">
-                  <b>Pablo Rivas:</b> Muy buena, bien lupulada y con ese amargor justo. Perfecta para los amantes de la IPA
-                </div>
-                <div class="border p-2 mb-2">
-                  <b>Franco Blanco:</b> La espuma duró bastante y el aroma es muy agradable. ¡Me gustó mucho!
-                </div>
-                <div class="border p-2 mb-2">
-                  <b>Priscila Ortega:</b> Fresca y con carácter. Ideal para una tarde entre amigos.
-                </div>
-              </div>
-            </div>
-      </div>
-       <!-- Cerveza3 -->
-      <div class="modal fade" id="modalCerveza3" tabindex="-1" aria-labelledby="modalCerveza3Label" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5" id="modalCerveza3Label">Selección de Cervezas</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div class="card mb-3" form="cardCerveza2">
-                  <div class="row g-0">
-                    <div class="col-md-4 align-content-center">
-                      <img src="../img/cervezaScotchAntares.webp" class="img-fluid rounded-start" alt="cerveza Scotch Antares">
-                    </div>
-                    <div class="col-md-8">
-                      <div class="card-body">
-                        <h5 class="card-title">Antares Scoth lata</h5>
-                        <h5 class="fw-bold">$4.200</h5>
-                        <ul class="card-text">
-                          <li>Unidades por pack: 1</li>
-                          <li>Producida en Argentina</li>
-                          <li>ABV 6%</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-            </div>
-            <div class="modal-footer">
-              <a href="./carrito.html" class="btn btnIndex w-50">Agregar al carrito</a>
-            </div>
-            <!-- Comentatios de la tercera cerveza-->
-            <div class="fst-italic py-2 border-top border-1 border-dark-subtle">
-              <h6 class="ms-4">Comentarios:</h6>
-              <div class="mb-3">
-                <div class="border p-2 mb-2">
-                  <b>Tomás Nievas:</b> Suave, refrescante y fácil de tomar. Perfecta para el verano
-                </div>
-                <div class="border p-2 mb-2">
-                  <b>Faustina Vera:</b> La probé por recomendación y no me decepcionó. Muy equilibrada.
-                </div>
-                <div class="border p-2 mb-2">
-                  <b>Bruno Guerrera:</b> Ideal para quienes no quieren algo tan fuerte. Muy rica.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+        </section>
+        <h3 class="text-center text-info">Integrantes</h3>
+
     </main>
-     <footer class="py-3 text-center text-md-start">
+    
+
+    <footer class="py-3 text-center text-md-start">
       <div class="container">
         <div class="row">
           <div class="col-12 d-flex justify-content-center">
@@ -358,7 +187,7 @@
 
               <li>
                 <a
-                  href="../pages/nosotros.html"
+                  href="nosotros.html"
                   class="nav-link"
                   >Nosotros</a
                 >
@@ -479,7 +308,6 @@
         </div>
       </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
   </body>
 </html>

@@ -20,14 +20,13 @@
   </head>
   <body>
     <header>
-      <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary bg-bordo">
-        <div class="container-fluid">
-          <a class="navbar-brand fst-italic mx-auto" href="index.html"
-            ><h2>Rolling Drinks</h2></a
+        <div class="container-fluid mx-3">
+          <a class="navbar-brand fst-italic mx-auto" href="../index.html"
+            ><h1 class="fs-3 fw-bold">Rolling Drinks</h1></a
           >
           <button
-            class="navbar-toggler"
+            class="navbar-toggler hamburguesa"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -44,24 +43,24 @@
                 <a
                   class="nav-link"
                   aria-current="page"
-                  href="./pages/vinos1.html"
+                  href="../pages/vinos1.html"
                   >Vinos</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./pages/cervezas1.html">Cervezas</a>
+                <a class="nav-link" href="../pages/cervezas1.html">Cervezas</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="./pages/whiskies1.html">Whiskies</a>
+                <a class="nav-link" href="../pages/whiskies1.html">Whiskies</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="./pages/whiskies1.html">Contacto</a>
+                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="./pages/whiskies1.html">Nosotros</a>
+                <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
               </li>
             </ul>
 
@@ -75,6 +74,7 @@
                 type="search"
                 placeholder="¿Que estás buscando?"
                 aria-label="Search"
+                style="background-color: #cea976;"
               />
               <button class="btn btn-outline-success" type="button">
                 <i class="bi bi-search"></i>
@@ -84,18 +84,21 @@
             <div
               class="d-flex align-items-center justify-content-center justify-content-md-center mt-3 mt-lg-0"
             >
-              <button class="btn btn-crear-cuenta mx-2" type="button">
-                Crea tu cuenta
-              </button>
-              <button class="btn btn-outline-success" type="button">
-                <i class="bi bi-person-circle"></i>
-              </button>
+              <a
+                ><button class="btn btn-crear-cuenta mx-2" type="button">
+                  Crea tu cuenta
+                </button></a
+              >
+              <a href="../pages/login.html"
+                ><button class="btn btn-outline-success" type="button">
+                  <i class="bi bi-person-circle"></i></button
+              ></a>
             </div>
           </div>
         </div>
 
         <a
-          href="https://wa.me/54381XXXXXXX"
+          href="../pages/404.html"
           class="whatsapp-float"
           target="_blank"
           title="Contactanos por WhatsApp"
@@ -107,7 +110,7 @@
         </a>
 
         <a
-          href="https://wa.me/54381XXXXXXX"
+          href="../pages/404.html"
           class="carrito-float"
           target="_blank"
           title="Contactanos por WhatsApp"
@@ -141,7 +144,7 @@
                   Angélica Zapata vino malbec alta botella 750ml
                 </p>
                 <div class="mt-auto">
-                  <a href="#" class="btn btnIndex">Agregar al carrito</a>
+                  <a href="./carrito.html" class="btn btnIndex">Agregar al carrito</a>
                 </div>
               </div>
             </article>
@@ -160,7 +163,7 @@
                 <h5 class="card-title">$26.800</h5>
                 <p class="card-text">D.V. Catena Cabernet 750ml</p>
                 <div class="mt-auto">
-                  <a href="#" class="btn btnIndex">Agregar al carrito</a>
+                  <a href="./carrito.html" class="btn btnIndex">Agregar al carrito</a>
                 </div>
               </div>
             </article>
@@ -177,7 +180,7 @@
                 <h5 class="card-title">$27.500</h5>
                 <p class="card-text">D.V. Catena Malbec 750ml</p>
                 <div class="mt-auto">
-                  <a href="#" class="btn btnIndex">Agregar al carrito</a>
+                  <a href="./carrito.html" class="btn btnIndex">Agregar al carrito</a>
                 </div>
               </div>
             </article>
@@ -194,12 +197,13 @@
                 <h5 class="card-title">$30.000</h5>
                 <p class="card-text">Vino El Enemigo Malbec 750ml</p>
                 <div class="mt-auto">
-                  <a href="#" class="btn btnIndex">Agregar al carrito</a>
+                  <a href="./carrito.html" class="btn btnIndex">Agregar al carrito</a>
                 </div>
               </div>
             </article>
           </div>
         </div>
+        <!-- Paginación -->
         <nav aria-label="Pagina 1 Vinos">
           <ul class="pagination justify-content-center my-3">
             <li class="page-item">
@@ -241,7 +245,23 @@
                 </div>
             </div>
             <div class="modal-footer">
-              <a href="#" class="btn btnIndex w-50">Agregar al carrito</a>
+              <a href="./carrito.html" class="btn btnIndex w-50">Agregar al carrito</a>
+            </div>
+            <!-- Comentatios del primer vino-->
+            <div class="fst-italic py-2 border-top border-1 border-dark-subtle">
+              <h6 class="ms-4">Comentarios:</h6>
+              <div class="mb-3">
+                <div class="border p-2 mb-2">
+                  <b>Juan Perez:</b> ¡Muy buen producto!
+                </div>
+                <div class="border p-2 mb-2">
+                  <b>Margarita del Campo:</b> Me encantó el sabor y la presentación.
+                </div>
+                <div class="border p-2 mb-2">
+                  <b>Elsa Bor:</b> La mejor atención 😊
+                </div>
+              </div>
+            </div>              
             </div>
           </div>
         </div>
@@ -275,18 +295,33 @@
                 </div>
             </div>
             <div class="modal-footer">
-              <a href="#" class="btn btnIndex w-50">Agregar al carrito</a>
+              <a href="./carrito.html" class="btn btnIndex w-50">Agregar al carrito</a>
+            </div>
+            <!-- Comentatios del segundo vino-->
+            <div class="fst-italic py-2 border-top border-1 border-dark-subtle">
+              <h6 class="ms-4">Comentarios:</h6>
+              <div class="mb-3">
+                <div class="border p-2 mb-2">
+                  <b>Rodrigo Saavedra:</b> “Un vino con mucho cuerpo, ideal para una cena especial. ¡Lo volvería a comprar!
+                </div>
+                <div class="border p-2 mb-2">
+                  <b>Lucía Montenegro:</b> Me encantó el sabor y el aroma. Lo abrimos en una reunión y todos quedaron fascinados.
+                </div>
+                <div class="border p-2 mb-2">
+                  <b>César Giménez:</b> La relación precio-calidad es excelente. Lo recomiendo para quienes disfrutan los tintos intensos.
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </main>
-    <footer class="py-3 text-center text-md-start">
+     <footer class="py-3 text-center text-md-start">
       <div class="container">
         <div class="row">
           <div class="col-12 d-flex justify-content-center">
-            <a class="navbar-brand fst-italic mx-auto" href="#"
-              ><h2>Rolling Drinks</h2></a
+            <a class="navbar-brand fst-italic mx-auto" href="../index.html"
+              ><h2 class="fw-bold fs-2">Rolling Drinks</h2></a
             >
           </div>
 
@@ -298,37 +333,37 @@
             <ul class="list-unstyled d-flex flex-column align-items-center">
               <li>
                 <a
-                  href="#"
-                  class="link-light link-underline link-underline-opacity-0 link-underline-opacity-25-hover titulo fw-bold"
+                  href="../pages/404.html"
+                  class="nav-link fw-bold"
                   >INSTITUCIONAL</a
                 >
               </li>
               <li>
                 <a
-                  href="#"
-                  class="link-light link-underline link-underline-opacity-0 link-underline-opacity-25-hover"
+                  href="../pages/404.html"
+                  class="nav-link"
                   >Sucursales</a
                 >
               </li>
               <li>
                 <a
-                  href="#"
-                  class="link-light link-underline link-underline-opacity-0 link-underline-opacity-25-hover"
+                  href="../pages/contacto.html"
+                  class="nav-link"
                   >Contacto</a
                 >
               </li>
               <li>
                 <a
-                  href="#"
-                  class="link-light link-underline link-underline-opacity-0 link-underline-opacity-25-hover"
+                  href="../pages/404.html"
+                  class="nav-link"
                   >Legales</a
                 >
               </li>
 
               <li>
                 <a
-                  href="#"
-                  class="link-light link-underline link-underline-opacity-0 link-underline-opacity-25-hover"
+                  href="../pages/nosotros.html"
+                  class="nav-link"
                   >Nosotros</a
                 >
               </li>
@@ -343,29 +378,29 @@
             <ul class="list-unstyled d-flex flex-column align-items-center">
               <li>
                 <a
-                  href="#"
-                  class="link-light link-underline link-underline-opacity-0 link-underline-opacity-25-hover titulo fw-bold"
+                  href="../pages/404.html"
+                  class="nav-link fw-bold"
                   >INFORMACION UTIL</a
                 >
               </li>
               <li>
                 <a
-                  href="#"
-                  class="link-light link-underline link-underline-opacity-0 link-underline-opacity-25-hover"
+                  href="../pages/404.html"
+                  class="nav-link"
                   >Envios</a
                 >
               </li>
               <li>
                 <a
-                  href="#"
-                  class="link-light link-underline link-underline-opacity-0 link-underline-opacity-25-hover"
+                  href="../pages/404.html"
+                  class="nav-link"
                   >Medios de pago</a
                 >
               </li>
               <li>
                 <a
-                  href="#"
-                  class="link-light link-underline link-underline-opacity-0 link-underline-opacity-25-hover"
+                  href="../pages/404.html"
+                  class="nav-link"
                   >Promociones bancarias</a
                 >
               </li>
@@ -380,8 +415,8 @@
             <ul class="list-unstyled d-flex flex-column align-items-center">
               <li>
                 <a
-                  href="#"
-                  class="link-light link-underline link-underline-opacity-0 link-underline-opacity-25-hover fw-bold"
+                  href="../pages/404.html"
+                  class="nav-link fw-bold"
                   >SEGUINOS EN NUESTRAS REDES</a
                 >
               </li>
@@ -389,22 +424,22 @@
               <div class="d-flex justify-content-center gap-3">
                 <li>
                   <a
-                    href="#"
-                    class="link-light link-underline link-underline-opacity-0 link-underline-opacity-25-hover"
+                    href="../pages/404.html"
+                    class="nav-link"
                     ><i class="bi bi-instagram fs-4"></i
                   ></a>
                 </li>
                 <li>
                   <a
-                    href="#"
-                    class="link-light link-underline link-underline-opacity-0 link-underline-opacity-25-hover"
+                    href="../pages/404.html"
+                    class="nav-link"
                     ><i class="bi bi-twitter fs-4"></i
                   ></a>
                 </li>
                 <li>
                   <a
-                    href="#"
-                    class="link-light link-underline link-underline-opacity-0 link-underline-opacity-25-hover"
+                    href="../pages/404.html"
+                    class="nav-link"
                     ><i class="bi bi-twitch fs-4"></i
                   ></a>
                 </li>
@@ -422,14 +457,14 @@
             >
               <li>
                 <a
-                  href="#"
-                  class="link-light link-underline link-underline-opacity-0 link-underline-opacity-25-hover"
+                  href="../pages/404.html"
+                  class="nav-link fw-bold"
                   >SUSCRIBITE</a
                 >
               </li>
 
               <li>
-                <p class="px-5">
+                <p class="px-5" style="color: var(--color-ambar);">
                   Recibí ofertas exclusivas y novedades antes que nadie
                 </p>
 
@@ -438,6 +473,7 @@
                     class="input-form-footer"
                     type="email"
                     placeholder="Email"
+                    style="background-color: #cea976;"
                   />
                   <button class="btn-form-footer" type="submit">OK</button>
                 </form>

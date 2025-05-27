@@ -2,7 +2,7 @@
 Este proyecto es un e-commerce ficticio de venta de bebidas desarrollado como trabajo final del módulo 1 del curso de Full Stack Developer. El objetivo principal fue practicar el trabajo en equipo utilizando Git y GitHub, aplicar conceptos fundamentales de HTML y CSS, y emplear herramientas como Bootstrap para lograr un diseño responsivo y atractivo.
 
 ## 🔗 Demo del proyecto
-Mirá la demo del proyecto [aquí]()
+Mirá la demo del proyecto [aquí](https://rollingdrinks.netlify.app/)
 
 ## 🎯 Objetivos del proyecto
 Aplicar conocimientos de HTML, CSS y Bootstrap para crear una interfaz moderna y funcional.
@@ -29,5 +29,5 @@ Simular un entorno profesional colaborativo en el desarrollo web.
 👥 Equipo de desarrollo
 - [CABANA, Paula](https://github.com/TaliCabana)
 - [DECIMA, Lautaro](https://github.com/laudecima5)
-- [FLAMENBAUM, Sebastián](https://github.com/duncann555)
+- [FLOMENBAUN, Sebastián](https://github.com/duncann555)
 - [GUERRERO, Maximiliano](https://github.com/maxiguerrero767)
