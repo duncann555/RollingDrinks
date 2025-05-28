@@ -121,35 +121,64 @@
           <form id="formulario">
             <div class="mb-3">
               <label for="nombre" class="form-label">Nombre *</label>
-              <input type="text" class="form-control" id="nombre" placeholder="Tu nombre" required minlength="3" />
+              <input
+                type="text"
+                class="form-control"
+                id="nombre"
+                placeholder="Tu nombre"
+                required
+                minlength="3"
+              />
             </div>
             <div class="mb-3">
               <label for="email" class="form-label">Correo electrónico *</label>
-              <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com" required />
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="nombre@ejemplo.com"
+                required
+              />
             </div>
             <div class="mb-3">
               <label for="telefono" class="form-label">Teléfono *</label>
-              <input type="tel" class="form-control" id="telefono" placeholder="Ej: 3811234567" pattern="[0-9]{7,15}" />
+              <input
+                type="tel"
+                class="form-control"
+                id="telefono"
+                placeholder="Ej: 3811234567"
+                pattern="[0-9]{7,15}"
+              />
             </div>
             <div class="mb-3">
               <label for="mensaje" class="form-label">Mensaje *</label>
-              <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribí tu mensaje aquí..." required minlength="10"></textarea>
+              <textarea
+                class="form-control"
+                id="mensaje"
+                rows="4"
+                placeholder="Escribí tu mensaje aquí..."
+                required
+                minlength="10"
+              ></textarea>
             </div>
-            <p class="text-light fw-light"><small> Los campos marcados con * son obligatorios.</small></p>
-            <button type="submit" class="btn btn-outline-success mb-3">Enviar</button>
+            <p class="text-light fw-light">
+              <small>Los campos marcados con * son obligatorios.</small>
+            </p>
+            <button type="submit" class="btn btn-outline-success mb-3">
+              Enviar
+            </button>
           </form>
         </div>
 
         <div class="col-md-6 mt-4 mt-md-0">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.1060679494694!2d-65.20974192488994!3d-26.836578490026433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses-419!2sbo!4v1748114291971!5m2!1ses-419!2sbo"
-            width="100%"
-            height="300"
-            style="border:0;"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
+          <div class="ratio ratio-4x3 w-100">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.1060679494694!2d-65.20974192488994!3d-26.836578490026433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses-419!2sbo!4v1748114291971!5m2!1ses-419!2sbo"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
         </div>
       </div>
 
