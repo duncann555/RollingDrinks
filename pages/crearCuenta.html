@@ -45,7 +45,7 @@
                 <a
                   class="nav-link"
                   aria-current="page"
-                  href="../pages/vinos1.html"
+                  href="./pages/vinos1.html"
                   >Vinos</a
                 >
               </li>
@@ -76,17 +76,18 @@
                 type="search"
                 placeholder="¿Que estás buscando?"
                 aria-label="Search"
-                style="background-color: #cea976"
+                style="background-color: #cea976;"
               />
-              <button class="btn btn-outline-success" type="button">
+              <a href="../pages/404.html"><button class="btn btn-outline-success" type="button">
                 <i class="bi bi-search"></i>
-              </button>
+              </button></a>
+              
             </form>
 
             <div
               class="d-flex align-items-center justify-content-center justify-content-md-center mt-3 mt-lg-0"
             >
-              <a
+              <a href="../pages/crearCuenta.html"
                 ><button class="btn btn-crear-cuenta mx-2" type="button">
                   Crea tu cuenta
                 </button></a
@@ -100,85 +101,158 @@
         </div>
 
         <a
-          href="../pages/404.html"
+          href="../pages/error404.html"
           class="whatsapp-float"
           target="_blank"
           title="Contactanos por WhatsApp"
         >
           <img
-            src="https://img.icons8.com/color/30/000000/whatsapp--v1.png"
+            src="https://img.icons8.com/color/40/000000/whatsapp--v1.png"
             alt="WhatsApp"
           />
         </a>
 
         <a
-          href="../pages/404.html"
+          href="../pages/carrito.html"
           class="carrito-float"
           target="_blank"
-          title="Contactanos por WhatsApp"
+          title="Pagina de Carrito"
         >
           <img
-            src="https://img.icons8.com/ios-glyphs/30/add-shopping-cart.png"
+            src="https://img.icons8.com/ios-glyphs/40/add-shopping-cart.png"
             alt="add-shopping-cart"
           />
         </a>
       </nav>
     </header>
-  <main class="container my-5 contenedor-login">
-  <h2 class="text-center mb-4">Crear Cuenta</h2>
-<form>
-  <div class="row">
-    <div class="col-12 mb-3">
-      <label for="nombre" class="form-label">Nombre</label>
-      <input type="text" class="form-control rounded-2" id="nombre" placeholder="Nombre" required minlength="2" maxlength="30" />
-    </div>
+    <main class="container my-5 contenedor-login">
+      <h2 class="text-center mb-4">Crear Cuenta</h2>
+      <form>
+        <div class="row">
+          <div class="col-12 mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input
+              type="text"
+              class="form-control rounded-2"
+              id="nombre"
+              placeholder="Nombre"
+              required
+              minlength="2"
+              maxlength="30"
+            />
+          </div>
 
-    <div class="col-12 mb-3">
-      <label for="apellido" class="form-label">Apellido</label>
-      <input type="text" class="form-control rounded-2" id="apellido" placeholder="Apellido" required minlength="2" maxlength="30" />
-    </div>
+          <div class="col-12 mb-3">
+            <label for="apellido" class="form-label">Apellido</label>
+            <input
+              type="text"
+              class="form-control rounded-2"
+              id="apellido"
+              placeholder="Apellido"
+              required
+              minlength="2"
+              maxlength="30"
+            />
+          </div>
 
-    <div class="col-12 mb-3">
-      <label for="usuario" class="form-label">Nombre de Usuario</label>
-      <input type="text" class="form-control rounded-2" id="usuario" placeholder="Usuario" required minlength="4" maxlength="20" />
-    </div>
+          <div class="col-12 mb-3">
+            <label for="usuario" class="form-label">Nombre de Usuario</label>
+            <input
+              type="text"
+              class="form-control rounded-2"
+              id="usuario"
+              placeholder="Usuario"
+              required
+              minlength="4"
+              maxlength="20"
+            />
+          </div>
 
-    <div class="col-12 mb-3">
-      <label for="email" class="form-label">Correo Electrónico</label>
-      <input type="email" class="form-control rounded-2" id="email" placeholder="Email" required maxlength="50" />
-    </div>
+          <div class="col-12 mb-3">
+            <label for="email" class="form-label">Correo Electrónico</label>
+            <input
+              type="email"
+              class="form-control rounded-2"
+              id="email"
+              placeholder="Email"
+              required
+              maxlength="50"
+            />
+          </div>
 
-    <div class="col-12 mb-3">
-      <label for="Celular" class="form-label">Celular</label>
-      <input type="tel" class="form-control rounded-2" id="telefono" placeholder="381-xxxxxxx" required minlength="8" maxlength="15" />
-    </div>
+          <div class="col-12 mb-3">
+            <label for="Celular" class="form-label">Celular</label>
+            <input
+              type="tel"
+              class="form-control rounded-2"
+              id="telefono"
+              placeholder="381-xxxxxxx"
+              required
+              minlength="8"
+              maxlength="15"
+            />
+          </div>
 
-    <div class="col-12 mb-3">
-      <label for="domicilio" class="form-label">Domicilio</label>
-      <input type="text" class="form-control rounded-2" id="domicilio" placeholder="Dirección" required minlength="5" maxlength="50" />
-    </div>
+          <div class="col-12 mb-3">
+            <label for="domicilio" class="form-label">Domicilio</label>
+            <input
+              type="text"
+              class="form-control rounded-2"
+              id="domicilio"
+              placeholder="Dirección"
+              required
+              minlength="5"
+              maxlength="50"
+            />
+          </div>
 
-    <div class="col-12 mb-3">
-      <label for="codigoPostal" class="form-label">Código Postal</label>
-      <input type="text" class="form-control rounded-2" id="codigoPostal" placeholder="Código Postal" required minlength="4" maxlength="10" />
-    </div>
+          <div class="col-12 mb-3">
+            <label for="codigoPostal" class="form-label">Código Postal</label>
+            <input
+              type="text"
+              class="form-control rounded-2"
+              id="codigoPostal"
+              placeholder="Código Postal"
+              required
+              minlength="4"
+              maxlength="10"
+            />
+          </div>
 
-    <div class="col-12 mb-3">
-      <label for="contrasena" class="form-label">Contraseña</label>
-      <input type="password" class="form-control rounded-2" id="contrasena" placeholder="Mínimo 8 caracteres" required minlength="8" maxlength="32" />
-    </div>
+          <div class="col-12 mb-3">
+            <label for="contrasena" class="form-label">Contraseña</label>
+            <input
+              type="password"
+              class="form-control rounded-2"
+              id="contrasena"
+              placeholder="Mínimo 8 caracteres"
+              required
+              minlength="8"
+              maxlength="32"
+            />
+          </div>
 
-    <div class="col-12 mb-3">
-      <label for="confirmarContrasena" class="form-label">Confirmar Contraseña</label>
-      <input type="password" class="form-control rounded-2" id="confirmarContrasena" placeholder="Repetir contraseña" required minlength="8" maxlength="32" />
-    </div>
-  </div>
+          <div class="col-12 mb-3">
+            <label for="confirmarContrasena" class="form-label"
+              >Confirmar Contraseña</label
+            >
+            <input
+              type="password"
+              class="form-control rounded-2"
+              id="confirmarContrasena"
+              placeholder="Repetir contraseña"
+              required
+              minlength="8"
+              maxlength="32"
+            />
+          </div>
+        </div>
 
-  <button type="submit" class="btn btn-crear-cuenta w-100 mt-3">Crear Cuenta</button>
-</form>
-
-
-</main>
+        <button type="submit" class="btn btn-crear-cuenta w-100 mt-3">
+          Crear Cuenta
+        </button>
+      </form>
+    </main>
 
     <footer class="py-3 text-center text-md-start">
       <div class="container">
