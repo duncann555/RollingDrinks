@@ -208,13 +208,19 @@ footer {
 
 .page-link {
   background-color: var(--color-burdeos);
-  color: white;
+  color: var(--color-ambar);
+  border: none;
+}
+
+.page-link:hover {
+  background-color: #743d2d;
+  color: var(--color-burdeos);
   border: none;
 }
 
 .page-link.active {
   background-color: var(--color-ambar);
-  color: black;
+  color: var(--color-burdeos);
   border: none;
 }
 
