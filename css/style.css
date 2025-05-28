@@ -307,18 +307,21 @@ a:hover {
 }
 
 .pub-img {
-  width: 100%;
-  height: auto;
-  max-height: 240px;
-  object-fit: cover;
-  object-position: center;
+  width: 100%;        /* ocupa todo el ancho del carousel (máximo 600px) */
+  height: 280px;      /* altura fija para que no cambie el carousel */
+  object-fit: cover;  /* rellena y recorta sin distorsionar */
   border-radius: 10px;
-  display: block;
+  margin: 0 auto;     /* centrar la imagen dentro del contenedor */
 }
+
+section.container.d-md-flex {
+  justify-content: center; /* centro horizontal */
+}
+
 
 @media (min-width: 768px) {
   .pub-img {
-    max-height: 360px;
+    max-height: 240px;
   }
 }
 
