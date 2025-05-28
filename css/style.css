@@ -311,3 +311,22 @@ a:hover {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,179,71, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
+/* video de vino*/
+
+.video-vinos{
+  position: relative;
+  overflow: hidden;
+  max-height: 400px;
+  width: 75%;
+  border-radius: 20px;
+  margin: auto;
+  
+}
+
+.video-vinos video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
