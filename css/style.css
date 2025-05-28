@@ -177,6 +177,10 @@ footer {
   color: var(--color-burdeos);
 }
 
+.letra2 {
+  color: var(--color-ambar);
+}
+
 .whatsapp-float,
 .carrito-float {
   position: fixed;
@@ -373,7 +377,8 @@ a:hover {
   overflow: hidden;
   max-height: 400px;
   width: 75%;
-  border-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
   margin: auto;
   
 }
