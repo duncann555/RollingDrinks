@@ -332,3 +332,18 @@ a:hover {
 .linkNosotros{
   color: var(--color-ambar);
 }
+
+.linkNosotros:hover{
+  color: var(--color-burdeos);
+  text-decoration-line:underline;
+}
+
+.mainNosotros{
+  color: var(--color-ambar);
+  text-align: justify;
+}
+
+.resaltadoNosotros{
+  color:#f59714;
+  font-weight: 800;
+}
