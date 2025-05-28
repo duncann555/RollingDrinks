@@ -321,4 +321,10 @@ a:hover {
 .cardNosotros {
   background-color: transparent;
   border: none;
+  font-weight: 100;
+  color: var(--color-ambar)
+}
+
+.linkNosotros{
+  color: var(--color-ambar);
 }
