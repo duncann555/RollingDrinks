@@ -78,6 +78,7 @@ footer {
 .btn-outline-success:hover {
   background-color: var(--color-ambar);
   color: var(--color-burdeos);
+  border: var(--color-ambar);
 }
 
 .btn-outline-success:active {
