@@ -313,7 +313,7 @@ a:hover {
 
 /* video de vino*/
 
-.video-vinos{
+.video-bebidas{
   position: relative;
   overflow: hidden;
   max-height: 400px;
@@ -323,7 +323,7 @@ a:hover {
   
 }
 
-.video-vinos video{
+.video-bebidas video{
   width: 100%;
   height: 100%;
   object-fit: cover;
