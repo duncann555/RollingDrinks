@@ -306,6 +306,29 @@ a:hover {
   filter: invert(0);
 }
 
+.pub-img {
+  width: 100%;
+  height: auto;
+  max-height: 240px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .pub-img {
+    max-height: 360px;
+  }
+}
+
+@media (min-width: 992px) {
+  .pub-img {
+    max-height: 480px;
+  }
+}
+
+
 /* Estilo base */
 .pub-img2 {
   width: 100%;
@@ -314,7 +337,6 @@ a:hover {
   border-radius: 10px;
   height: 240px; /* XS y SM */
   position: relative;
-  top: 0;
 }
 
 /* MD */
@@ -325,7 +347,7 @@ a:hover {
   }
 
   .carousel-caption {
-    bottom: 1rem;
+    bottom: 0.2rem;
   }
 }
 
