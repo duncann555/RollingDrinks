@@ -318,6 +318,10 @@ a:hover {
     object-position: top;
 }
 
+.imgNosotros:hover{
+  filter: sepia(50);
+}
+
 .cardNosotros {
   background-color: transparent;
   border: none;
