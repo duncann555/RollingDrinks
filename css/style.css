@@ -162,6 +162,10 @@ footer {
   color: var(--color-burdeos);
 }
 
+.letra2 {
+  color: var(--color-ambar);
+}
+
 .whatsapp-float,
 .carrito-float {
   position: fixed;
