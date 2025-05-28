@@ -25,6 +25,8 @@ h4,
 h5,
 .navbar-brand {
   font-family: "Playfair Display", serif;
+  color: var(--color-ambar);
+  font-weight: bold;
 }
 
 .navbar {
@@ -76,6 +78,13 @@ footer {
 .btn-outline-success:hover {
   background-color: var(--color-ambar);
   color: var(--color-burdeos);
+  border: var(--color-ambar);
+}
+
+.btn-outline-success:active {
+  background-color: var(--color-ambar)!important;
+  color: var(--color-burdeos)!important;
+  border: var(--color-ambar)!important;
 }
 
 .btn-crear-cuenta,
@@ -93,6 +102,12 @@ footer {
   background-color: rgba(255, 215, 0, 0.1);
   color: var(--color-ambar);
   border-color: var(--color-ambar);
+}
+
+.btn-login:active {
+  background-color: rgba(255, 215, 0, 0.1)!important;
+  color: var(--color-ambar)!important;
+  border-color: var(--color-ambar)!important;
 }
 
 .btnIndex {
@@ -189,7 +204,7 @@ footer {
 
 .whatsapp-float:hover,
 .carrito-float:hover {
-  transform: scale(1.4);
+  transform: scale(1.2);
 }
 
 .page-link {
@@ -218,6 +233,7 @@ footer {
   border-radius: 20px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
+  
 }
 
 .card-Index:hover {
@@ -226,11 +242,13 @@ footer {
 
 .tituloCardIndex {
   color: var(--color-burdeos);
+  
 }
 
 .cardCategoria {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
+  
 }
 
 .cardCategoria:hover {
@@ -239,6 +257,7 @@ footer {
 
 .imgCardCategoria {
   cursor: pointer;
+  
 }
 
 .cart-box,
