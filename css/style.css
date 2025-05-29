@@ -447,7 +447,6 @@ section.container.d-md-flex {
   position: relative;
   overflow: hidden;
   max-height: 400px;
-  
 }
 
 .video-bebidas video {
@@ -459,6 +458,13 @@ section.container.d-md-flex {
 
 @media (min-width: 1200px) {
   body.cervezas1 .video-bebidas video {
+    position: relative;
+    top: -300px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body.whisky .video-bebidas video {
     position: relative;
     top: -300px;
   }

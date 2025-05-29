@@ -18,7 +18,7 @@
     <meta name="author" content="Rolling Drinks" />
     <title>Rolling Drinks</title>
   </head>
-  <body>
+  <body class="whisky">
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary bg-bordo">
         <div class="container-fluid mx-3">
@@ -74,12 +74,12 @@
                 type="search"
                 placeholder="¿Que estás buscando?"
                 aria-label="Search"
-                style="background-color: #cea976;"
+                style="background-color: #cea976"
               />
-              <a href="../pages/404.html"><button class="btn btn-outline-success" type="button">
-                <i class="bi bi-search"></i>
-              </button></a>
-              
+              <a href="../pages/404.html"
+                ><button class="btn btn-outline-success" type="button">
+                  <i class="bi bi-search"></i></button
+              ></a>
             </form>
 
             <div
@@ -123,33 +123,39 @@
         </a>
       </nav>
     </header>
-     <div class="container-fluid mb-3">
-    <div class="video-bebidas">
-      <video autoplay muted loop>
-        <source src="https://videos.pexels.com/video-files/4667119/4667119-uhd_2732_1440_25fps.mp4" type="video/mp4">
-        Tu navegador no soporta el video HTML5.
-      </video>
-    </div>
-  </div>
-    <main class="flex-grow-1 container my-4">
-        <section class="container my-3">
-            <h2>Whiskies</h2>
-             <div class="row row-gap-3">
+
+    <main class="flex-grow-1 p-0">
+      <div class="container-fluid p-0">
+        <div class="video-bebidas">
+          <video autoplay muted loop>
+            <source
+              src="https://videos.pexels.com/video-files/4667119/4667119-uhd_2732_1440_25fps.mp4"
+              type="video/mp4"
+            />
+            Tu navegador no soporta el video HTML5.
+          </video>
+        </div>
+      </div>
+
+      <section class="container my-3">
+        <h2 class="text-center my-3">Whiskies</h2>
+        <div class="row row-gap-3">
           <!-- Página 1 de whiskies -->
           <!-- Whisky1 -->
-          <div class="col-12 col-md-6 col-lg-3">
-                  <article class="card h-100 cardCategoria">
-                    <img
+          <div class="col-12 col-md-6 col-lg-3 px-5 px-md-2 my-3">
+            <article class="card h-100 cardCategoria">
+              <img
                 src="../img/whiskyChivasRegalRoyalSalute.webp"
                 class="card-img-top imgCardCategoria"
                 alt="whisky Chivas Regal Royal Salute"
                 data-bs-toggle="modal"
-                data-bs-target="#modalWhisky1"                
+                data-bs-target="#modalWhisky1"
               />
               <div class="card-body d-flex flex-column flex-grow-1">
                 <h5 class="card-title">$345.500</h5>
                 <p class="card-text">
-                  Chivas Regal Royal Salute Whisky 21 Años escocés 700 ml</p>
+                  Chivas Regal Royal Salute Whisky 21 Años escocés 700 ml
+                </p>
                 <div class="mt-auto">
                   <a href="#" class="btn btnIndex">Agregar al carrito</a>
                 </div>
@@ -157,7 +163,7 @@
             </article>
           </div>
           <!-- Whisky2 -->
-          <div class="col-12 col-md-6 col-lg-3">
+          <div class="col-12 col-md-6 col-lg-3 px-5 px-md-2 my-3">
             <article class="card h-100 cardCategoria">
               <img
                 src="../img/whiskyChivasRegalMizunara.webp"
@@ -166,7 +172,9 @@
               />
               <div class="card-body d-flex flex-column flex-grow-1">
                 <h5 class="card-title">$89.100</h5>
-                <p class="card-text">Chivas Regal Mizunara Whisky Escocés Botella 700 ml+ Estuche</p>
+                <p class="card-text">
+                  Chivas Regal Mizunara Whisky Escocés Botella 700 ml+ Estuche
+                </p>
                 <div class="mt-auto">
                   <a href="#" class="btn btnIndex">Agregar al carrito</a>
                 </div>
@@ -174,7 +182,7 @@
             </article>
           </div>
           <!-- Whisky3 -->
-          <div class="col-12 col-md-6 col-lg-3">
+          <div class="col-12 col-md-6 col-lg-3 px-5 px-md-2 my-3">
             <article class="card h-100 cardCategoria">
               <img
                 src="../img/whiskyScotchChivasRegal.webp"
@@ -185,7 +193,9 @@
               />
               <div class="card-body d-flex flex-column flex-grow-1">
                 <h5 class="card-title">$81.000</h5>
-                <p class="card-text">Whisky Scotch Chivas Regal 12 años Escocia botella 1l</p>
+                <p class="card-text">
+                  Whisky Scotch Chivas Regal 12 años Escocia botella 1l
+                </p>
                 <div class="mt-auto">
                   <a href="#" class="btn btnIndex">Agregar al carrito</a>
                 </div>
@@ -193,7 +203,7 @@
             </article>
           </div>
           <!-- Whisky4 -->
-          <div class="col-12 col-md-6 col-lg-3">
+          <div class="col-12 col-md-6 col-lg-3 px-5 px-md-2 my-3">
             <article class="card h-100 cardCategoria">
               <img
                 src="../img/whiskyGlenlivetSingleMalt12a.webp"
@@ -202,7 +212,9 @@
               />
               <div class="card-body d-flex flex-column flex-grow-1">
                 <h5 class="card-title">$64.000</h5>
-                <p class="card-text">Whisky Glenlivet 12 años single malt botella 700ml con estuche</p>
+                <p class="card-text">
+                  Whisky Glenlivet 12 años single malt botella 700ml con estuche
+                </p>
                 <div class="mt-auto">
                   <a href="#" class="btn btnIndex">Agregar al carrito</a>
                 </div>
@@ -222,84 +234,132 @@
         </nav>
       </section>
       <!-- Modal -->
-       <!-- Whisky1 -->
-      <div class="modal fade" id="modalWhisky1" tabindex="-1" aria-labelledby="modalWhisky1Label" aria-hidden="true">
+      <!-- Whisky1 -->
+      <div
+        class="modal fade"
+        id="modalWhisky1"
+        tabindex="-1"
+        aria-labelledby="modalWhisky1Label"
+        aria-hidden="true"
+      >
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h1 class="modal-title fs-5" id="modalWhisky1Label">Selección de Whiskies</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              <h1 class="modal-title fs-5" id="modalWhisky1Label">
+                Selección de Whiskies
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
             </div>
             <div class="modal-body">
-                <div class="card mb-3" form="cardWhisky3">
-                  <div class="row g-0">
-                    <div class="col-md-4 align-content-center">
-                      <img src="../img/whiskyChivasRegalRoyalSalute.webp" class="img-fluid rounded-start" alt="whisky Chivas Regal Royal Salutel">
-                    </div>
-                    <div class="col-md-8">
-                      <div class="card-body">
-                        <h5 class="card-title">Chivas Regal Royal Salute Whisky 21 Años escocés 700 ml</h5>
-                        <h5 class="fw-bold">$345.500</h5>
-                        <ul class="card-text">
-                          <li>Origen: Escocia</li>
-                          <li>40% de graduación alcohólica.</li>
-                          <li>Incluye estuche</li>
-                        </ul>
-                      </div>
+              <div class="card mb-3" form="cardWhisky3">
+                <div class="row g-0">
+                  <div class="col-md-4 align-content-center">
+                    <img
+                      src="../img/whiskyChivasRegalRoyalSalute.webp"
+                      class="img-fluid rounded-start"
+                      alt="whisky Chivas Regal Royal Salutel"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Chivas Regal Royal Salute Whisky 21 Años escocés 700 ml
+                      </h5>
+                      <h5 class="fw-bold">$345.500</h5>
+                      <ul class="card-text">
+                        <li>Origen: Escocia</li>
+                        <li>40% de graduación alcohólica.</li>
+                        <li>Incluye estuche</li>
+                      </ul>
                     </div>
                   </div>
                 </div>
+              </div>
             </div>
             <div class="modal-footer">
-              <a href="./carrito.html" class="btn btnIndex w-50">Agregar al carrito</a>
+              <a href="./carrito.html" class="btn btnIndex w-50"
+                >Agregar al carrito</a
+              >
             </div>
-                        <!-- Comentatios del primer whisky-->
+            <!-- Comentatios del primer whisky-->
             <div class="fst-italic py-2 border-top border-1 border-dark-subtle">
               <h6 class="ms-4">Comentarios:</h6>
               <div class="mb-3">
                 <div class="border p-2 mb-2">
-                  <b>Martín Dorado:</b> Notas ahumadas increíbles. Perfecto para beber solo, sin hielo
+                  <b>Martín Dorado:</b> Notas ahumadas increíbles. Perfecto para
+                  beber solo, sin hielo
                 </div>
                 <div class="border p-2 mb-2">
-                  <b>Nahuel Mariani:</b> Un clásico que nunca falla. Sabor elegante y persistente.
+                  <b>Nahuel Mariani:</b> Un clásico que nunca falla. Sabor
+                  elegante y persistente.
                 </div>
                 <div class="border p-2 mb-2">
-                  <b>Verónica Dayán:</b> Es ideal para regalar. La botella es hermosa y el contenido, aún más.
+                  <b>Verónica Dayán:</b> Es ideal para regalar. La botella es
+                  hermosa y el contenido, aún más.
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-       <!-- Whisky3 -->
-      <div class="modal fade" id="modalWhisky3" tabindex="-1" aria-labelledby="modalWhisky3Label" aria-hidden="true">
+      <!-- Whisky3 -->
+      <div
+        class="modal fade"
+        id="modalWhisky3"
+        tabindex="-1"
+        aria-labelledby="modalWhisky3Label"
+        aria-hidden="true"
+      >
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h1 class="modal-title fs-5" id="modalWhisky2Label">Selección de Whiskies</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              <h1 class="modal-title fs-5" id="modalWhisky2Label">
+                Selección de Whiskies
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
             </div>
             <div class="modal-body">
-                <div class="card mb-3" form="cardWhisky3">
-                  <div class="row g-0">
-                    <div class="col-md-4 align-content-center">
-                      <img src="../img/whiskyScotchChivasRegal.webp" class="img-fluid rounded-start" alt="whisky Scotch Chivas Regal">
-                    </div>
-                    <div class="col-md-8">
-                      <div class="card-body">
-                        <h5 class="card-title">Whisky Scotch Chivas Regal 12 años Escocia botella 1 l</h5>
-                        <h5 class="fw-bold">$81.000</h5>
-                        <ul class="card-text">
-                          <li>Elaborado a partir de combinación de whiskies de malta colorante caramelo y agua</li>
-                          <li>40% de graduación alcohólica.</li>
-                        </ul>
-                      </div>
+              <div class="card mb-3" form="cardWhisky3">
+                <div class="row g-0">
+                  <div class="col-md-4 align-content-center">
+                    <img
+                      src="../img/whiskyScotchChivasRegal.webp"
+                      class="img-fluid rounded-start"
+                      alt="whisky Scotch Chivas Regal"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Whisky Scotch Chivas Regal 12 años Escocia botella 1 l
+                      </h5>
+                      <h5 class="fw-bold">$81.000</h5>
+                      <ul class="card-text">
+                        <li>
+                          Elaborado a partir de combinación de whiskies de malta
+                          colorante caramelo y agua
+                        </li>
+                        <li>40% de graduación alcohólica.</li>
+                      </ul>
                     </div>
                   </div>
                 </div>
+              </div>
             </div>
             <div class="modal-footer">
-              <a href="./carrito.html" class="btn btnIndex w-50">Agregar al carrito</a>
+              <a href="./carrito.html" class="btn btnIndex w-50"
+                >Agregar al carrito</a
+              >
             </div>
             <!-- Comentatios del tercer whisky-->
             <div class="fst-italic py-2 border-top border-1 border-dark-subtle">
@@ -309,18 +369,20 @@
                   <b>Noralí Vargas:</b> Dulce al inicio, con un final especiado
                 </div>
                 <div class="border p-2 mb-2">
-                  <b>Isabel Montero:</b> Lo uso para cocktails y queda espectacular en un Old Fashioned
+                  <b>Isabel Montero:</b> Lo uso para cocktails y queda
+                  espectacular en un Old Fashioned
                 </div>
                 <div class="border p-2 mb-2">
-                  <b>Víctor Vélez:</b> Buen cuerpo y aroma. Me sorprendió gratamente
+                  <b>Víctor Vélez:</b> Buen cuerpo y aroma. Me sorprendió
+                  gratamente
                 </div>
               </div>
-            </div> 
+            </div>
           </div>
         </div>
       </div>
     </main>
-     <footer class="py-3 text-center text-md-start">
+    <footer class="py-3 text-center text-md-start">
       <div class="container">
         <div class="row">
           <div class="col-12 d-flex justify-content-center">
@@ -336,40 +398,22 @@
           <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3">
             <ul class="list-unstyled d-flex flex-column align-items-center">
               <li>
-                <a
-                  href="../pages/404.html"
-                  class="nav-link fw-bold"
+                <a href="../pages/404.html" class="nav-link fw-bold"
                   >INSTITUCIONAL</a
                 >
               </li>
               <li>
-                <a
-                  href="../pages/404.html"
-                  class="nav-link"
-                  >Sucursales</a
-                >
+                <a href="../pages/404.html" class="nav-link">Sucursales</a>
               </li>
               <li>
-                <a
-                  href="../pages/contacto.html"
-                  class="nav-link"
-                  >Contacto</a
-                >
+                <a href="../pages/contacto.html" class="nav-link">Contacto</a>
               </li>
               <li>
-                <a
-                  href="../pages/404.html"
-                  class="nav-link"
-                  >Legales</a
-                >
+                <a href="../pages/404.html" class="nav-link">Legales</a>
               </li>
 
               <li>
-                <a
-                  href="../pages/nosotros.html"
-                  class="nav-link"
-                  >Nosotros</a
-                >
+                <a href="../pages/nosotros.html" class="nav-link">Nosotros</a>
               </li>
             </ul>
           </div>
@@ -381,30 +425,18 @@
           <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3">
             <ul class="list-unstyled d-flex flex-column align-items-center">
               <li>
-                <a
-                  href="../pages/404.html"
-                  class="nav-link fw-bold"
+                <a href="../pages/404.html" class="nav-link fw-bold"
                   >INFORMACION UTIL</a
                 >
               </li>
               <li>
-                <a
-                  href="../pages/404.html"
-                  class="nav-link"
-                  >Envios</a
-                >
+                <a href="../pages/404.html" class="nav-link">Envios</a>
               </li>
               <li>
-                <a
-                  href="../pages/404.html"
-                  class="nav-link"
-                  >Medios de pago</a
-                >
+                <a href="../pages/404.html" class="nav-link">Medios de pago</a>
               </li>
               <li>
-                <a
-                  href="../pages/404.html"
-                  class="nav-link"
+                <a href="../pages/404.html" class="nav-link"
                   >Promociones bancarias</a
                 >
               </li>
@@ -418,32 +450,24 @@
           <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3">
             <ul class="list-unstyled d-flex flex-column align-items-center">
               <li>
-                <a
-                  href="../pages/404.html"
-                  class="nav-link fw-bold"
+                <a href="../pages/404.html" class="nav-link fw-bold"
                   >SEGUINOS EN NUESTRAS REDES</a
                 >
               </li>
 
               <div class="d-flex justify-content-center gap-3">
                 <li>
-                  <a
-                    href="../pages/404.html"
-                    class="nav-link"
+                  <a href="../pages/404.html" class="nav-link"
                     ><i class="bi bi-instagram fs-4"></i
                   ></a>
                 </li>
                 <li>
-                  <a
-                    href="../pages/404.html"
-                    class="nav-link"
+                  <a href="../pages/404.html" class="nav-link"
                     ><i class="bi bi-twitter fs-4"></i
                   ></a>
                 </li>
                 <li>
-                  <a
-                    href="../pages/404.html"
-                    class="nav-link"
+                  <a href="../pages/404.html" class="nav-link"
                     ><i class="bi bi-twitch fs-4"></i
                   ></a>
                 </li>
@@ -460,15 +484,13 @@
               class="list-unstyled d-flex flex-column align-items-center text-center"
             >
               <li>
-                <a
-                  href="../pages/404.html"
-                  class="nav-link fw-bold"
+                <a href="../pages/404.html" class="nav-link fw-bold"
                   >SUSCRIBITE</a
                 >
               </li>
 
               <li>
-                <p class="px-5" style="color: var(--color-ambar);">
+                <p class="px-5" style="color: var(--color-ambar)">
                   Recibí ofertas exclusivas y novedades antes que nadie
                 </p>
 
@@ -477,7 +499,7 @@
                     class="input-form-footer"
                     type="email"
                     placeholder="Email"
-                    style="background-color: #cea976;"
+                    style="background-color: #cea976"
                   />
                   <button class="btn-form-footer" type="submit">OK</button>
                 </form>
