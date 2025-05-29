@@ -82,9 +82,9 @@ footer {
 }
 
 .btn-outline-success:active {
-  background-color: var(--color-ambar)!important;
-  color: var(--color-burdeos)!important;
-  border: var(--color-ambar)!important;
+  background-color: var(--color-ambar) !important;
+  color: var(--color-burdeos) !important;
+  border: var(--color-ambar) !important;
 }
 
 .btn-crear-cuenta,
@@ -105,9 +105,9 @@ footer {
 }
 
 .btn-login:active {
-  background-color: rgba(255, 215, 0, 0.1)!important;
-  color: var(--color-ambar)!important;
-  border-color: var(--color-ambar)!important;
+  background-color: rgba(255, 215, 0, 0.1) !important;
+  color: var(--color-ambar) !important;
+  border-color: var(--color-ambar) !important;
 }
 
 .btnIndex {
@@ -137,7 +137,6 @@ footer {
   border-color: var(--color-ambar);
   box-shadow: 0 0 5px var(--color-ambar);
 }
-
 
 .btn-color-burdeos {
   background-color: var(--color-burdeos);
@@ -209,13 +208,19 @@ footer {
 
 .page-link {
   background-color: var(--color-burdeos);
-  color: white;
+  color: var(--color-ambar);
+  border: none;
+}
+
+.page-link:hover {
+  background-color: #743d2d;
+  color: var(--color-burdeos);
   border: none;
 }
 
 .page-link.active {
   background-color: var(--color-ambar);
-  color: black;
+  color: var(--color-burdeos);
   border: none;
 }
 
@@ -233,7 +238,6 @@ footer {
   border-radius: 20px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
-  
 }
 
 .card-Index:hover {
@@ -241,14 +245,12 @@ footer {
 }
 
 .tituloCardIndex {
-  color: var(--color-burdeos);
-  
+  color: var(--color-ambar);
 }
 
 .cardCategoria {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
-  
 }
 
 .cardCategoria:hover {
@@ -257,7 +259,6 @@ footer {
 
 .imgCardCategoria {
   cursor: pointer;
-  
 }
 
 .cart-box,
@@ -303,7 +304,7 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: #9b6213!important;
+  color: #9b6213 !important;
 }
 
 .carousel-control-prev-icon,
@@ -311,20 +312,90 @@ a:hover {
   filter: invert(0);
 }
 
-@media (min-width: 992px) {
-  .carousel-img {
-    height: 350px;
-    object-position: center;
+.pub-img {
+  width: 100%;        /* ocupa todo el ancho del carousel (máximo 600px) */
+  height: 280px;      /* altura fija para que no cambie el carousel */
+  object-fit: cover;  /* rellena y recorta sin distorsionar */
+  border-radius: 10px;
+  margin: 0 auto;     /* centrar la imagen dentro del contenedor */
+}
+
+section.container.d-md-flex {
+  justify-content: center; /* centro horizontal */
+}
+
+
+@media (min-width: 768px) {
+  .pub-img {
+    max-height: 240px;
   }
 }
 
-.pub-img {
-  height: 230px;
+@media (min-width: 992px) {
+  .pub-img {
+    max-height: 480px;
+  }
+}
+
+
+/* Estilo base */
+.pub-img2 {
+  width: 100%;
   object-fit: contain;
   object-position: center;
-  width: 100%;
   border-radius: 10px;
+  height: 240px; /* XS y SM */
+  position: relative;
 }
+
+/* MD */
+@media (min-width: 768px) {
+  .pub-img2 {
+    height: 280px;
+    top: -120px;
+  }
+
+  .carousel-caption {
+    bottom: 0.2rem;
+  }
+}
+
+/* LG */
+@media (min-width: 992px) {
+  .pub-img2 {
+    height: 320px;
+    top: -200px;
+  }
+
+  .carousel-caption {
+    bottom: 1.5rem;
+  }
+}
+
+/* XL */
+@media (min-width: 1200px) {
+  .pub-img2 {
+    height: 360px;
+    top: -210px;
+  }
+
+  .carousel-caption {
+    bottom: 2rem;
+  }
+}
+
+/* XXL */
+@media (min-width: 1400px) {
+  .pub-img2 {
+    height: 420px;
+    top: -380px;
+  }
+
+  .carousel-caption {
+    bottom: 2rem;
+  }
+}
+
 
 .hamburguesa {
   border: 2px solid var(--color-ambar);
@@ -335,58 +406,66 @@ a:hover {
 }
 
 .imgNosotros {
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    object-position: top;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: top;
 }
 
-.imgNosotros:hover{
+.imgNosotros:hover {
   filter: sepia(50);
 }
 
 .cardNosotros {
   background-color: transparent;
-  border: none; 
+  border: none;
   font-weight: 100;
-  color: var(--color-ambar)
-}
-
-.linkNosotros{
   color: var(--color-ambar);
 }
 
-.linkNosotros:hover{
-  color: var(--color-burdeos);
-  text-decoration-line:underline;
+.linkNosotros {
+  color: var(--color-ambar);
 }
 
-.mainNosotros{
+.linkNosotros:hover {
+  color: var(--color-burdeos);
+  text-decoration-line: underline;
+}
+
+.mainNosotros {
   color: var(--color-ambar);
   text-align: justify;
 }
 
-.resaltadoNosotros{
-  color:#f59714;
+.resaltadoNosotros {
+  color: #f59714;
   font-weight: 800;
 }
 /* video de vino*/
 
-.video-bebidas{
+.video-bebidas {
   position: relative;
   overflow: hidden;
   max-height: 400px;
-  width: 75%;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  margin: auto;
-  
 }
 
-.video-bebidas video{
+.video-bebidas video {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
 }
 
+@media (min-width: 1200px) {
+  body.cervezas1 .video-bebidas video {
+    position: relative;
+    top: -300px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body.whisky .video-bebidas video {
+    position: relative;
+    top: -300px;
+  }
+}
