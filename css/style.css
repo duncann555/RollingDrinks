@@ -1,0 +1,471 @@
+:root {
+  --color-burdeos: #5d001e;
+  --color-marfil: #fdf6e3;
+  --color-gris-humo: #2e2e2e;
+  --color-ambar: #ffb347;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: var(--color-gris-humo);
+  color: var(--color-marfil);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.navbar-brand {
+  font-family: "Playfair Display", serif;
+  color: var(--color-ambar);
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: var(--color-burdeos) !important;
+}
+
+.input-form-footer {
+  width: 180px;
+  padding: 8px;
+  border: none;
+  border-radius: 20px 0 0 0px;
+}
+
+.btn-form-footer {
+  background-color: #ffb347;
+  color: #000000;
+  border: none;
+  padding: 5px 13px;
+  border-radius: 0 0px 20px 0;
+  cursor: pointer;
+}
+
+.btn-outline-success {
+  border-color: var(--color-ambar);
+}
+
+.navbar-brand,
+.nav-link {
+  color: var(--color-ambar);
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: var(--color-marfil);
+}
+
+footer {
+  background-color: var(--color-burdeos);
+  color: var(--color-marfil);
+  padding: 1rem;
+  text-align: center;
+}
+
+.btn-outline-success {
+  border-color: var(--color-ambar);
+  color: var(--color-ambar);
+}
+
+.btn-outline-success:hover {
+  background-color: var(--color-ambar);
+  color: var(--color-burdeos);
+  border: var(--color-ambar);
+}
+
+.btn-outline-success:active {
+  background-color: var(--color-ambar) !important;
+  color: var(--color-burdeos) !important;
+  border: var(--color-ambar) !important;
+}
+
+.btn-crear-cuenta,
+.btn-login,
+.btnIndex {
+  background-color: var(--color-ambar);
+  color: var(--color-burdeos);
+  border-color: var(--color-ambar);
+  border-radius: 15px;
+}
+
+.btn-crear-cuenta:hover,
+.btn-login:hover,
+.btnIndex:hover {
+  background-color: rgba(255, 215, 0, 0.1);
+  color: var(--color-ambar);
+  border-color: var(--color-ambar);
+}
+
+.btn-login:active {
+  background-color: rgba(255, 215, 0, 0.1) !important;
+  color: var(--color-ambar) !important;
+  border-color: var(--color-ambar) !important;
+}
+
+.btnIndex {
+  width: 100%;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+  transition: 300ms;
+}
+
+.btnIndex:hover {
+  background-color: var(--color-burdeos);
+  color: var(--color-marfil);
+}
+
+.form-control {
+  background-color: var(--color-marfil);
+  color: var(--color-burdeos);
+  border: 2px solid var(--color-burdeos);
+  border-radius: 15px;
+}
+
+.form-control::placeholder {
+  color: var(--color-burdeos);
+  opacity: 0.7;
+}
+
+.form-control:focus {
+  border-color: var(--color-ambar);
+  box-shadow: 0 0 5px var(--color-ambar);
+}
+
+.btn-color-burdeos {
+  background-color: var(--color-burdeos);
+  color: #cea976;
+  border-color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-color-burdeos:hover {
+  background-color: var(--color-ambar);
+  color: var(--color-burdeos);
+  border-color: black;
+}
+
+.input-form-footer {
+  width: 180px;
+  padding: 8px;
+  border: none;
+  border-radius: 20px 0 0 0;
+}
+
+.input-form-footer:focus {
+  outline: none;
+  box-shadow: 0 0 5px var(--color-ambar);
+}
+
+.btn-form-footer {
+  background-color: var(--color-ambar);
+  color: #000;
+  border: none;
+  padding: 5px 13px;
+  border-radius: 0 0 20px 0;
+  cursor: pointer;
+}
+
+.letra {
+  color: var(--color-burdeos);
+}
+
+.letra2 {
+  color: var(--color-ambar);
+}
+
+.whatsapp-float,
+.carrito-float {
+  position: fixed;
+  right: 10px;
+  z-index: 9999;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s;
+}
+
+.whatsapp-float {
+  bottom: 20px;
+  background-color: #12bb50;
+}
+
+.carrito-float {
+  bottom: 90px;
+  background-color: #25d366;
+}
+
+.whatsapp-float:hover,
+.carrito-float:hover {
+  transform: scale(1.2);
+}
+
+.page-link {
+  background-color: var(--color-burdeos);
+  color: var(--color-ambar);
+  border: none;
+}
+
+.page-link:hover {
+  background-color: #743d2d;
+  color: var(--color-burdeos);
+  border: none;
+}
+
+.page-link.active {
+  background-color: var(--color-ambar);
+  color: var(--color-burdeos);
+  border: none;
+}
+
+.img-categoria {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-Index {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.card-Index:hover {
+  transform: scale(1.05);
+}
+
+.tituloCardIndex {
+  color: var(--color-ambar);
+}
+
+.cardCategoria {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.cardCategoria:hover {
+  transform: scale(1.05);
+}
+
+.imgCardCategoria {
+  cursor: pointer;
+}
+
+.cart-box,
+.total-box {
+  background-color: #cea976;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.item-img {
+  max-height: 60px;
+}
+
+.free-shipping {
+  color: green;
+  font-weight: bold;
+}
+
+.btn-black {
+  background-color: black;
+  color: var(--color-marfil);
+}
+
+.divider {
+  border-top: 1px solid black;
+  margin: 15px 0;
+}
+
+.contenedor-login {
+  max-width: 500px;
+}
+
+.separador {
+  border-top: 1px solid var(--color-ambar);
+}
+
+a {
+  color: var(--color-marfil);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #9b6213 !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(0);
+}
+
+.pub-img {
+  width: 100%;        /* ocupa todo el ancho del carousel (máximo 600px) */
+  height: 280px;      /* altura fija para que no cambie el carousel */
+  object-fit: cover;  /* rellena y recorta sin distorsionar */
+  border-radius: 10px;
+  margin: 0 auto;     /* centrar la imagen dentro del contenedor */
+}
+
+section.container.d-md-flex {
+  justify-content: center; /* centro horizontal */
+}
+
+
+@media (min-width: 768px) {
+  .pub-img {
+    max-height: 240px;
+  }
+}
+
+@media (min-width: 992px) {
+  .pub-img {
+    max-height: 480px;
+  }
+}
+
+
+/* Estilo base */
+.pub-img2 {
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 10px;
+  height: 240px; /* XS y SM */
+  position: relative;
+}
+
+/* MD */
+@media (min-width: 768px) {
+  .pub-img2 {
+    height: 280px;
+    top: -120px;
+  }
+
+  .carousel-caption {
+    bottom: 0.2rem;
+  }
+}
+
+/* LG */
+@media (min-width: 992px) {
+  .pub-img2 {
+    height: 320px;
+    top: -200px;
+  }
+
+  .carousel-caption {
+    bottom: 1.5rem;
+  }
+}
+
+/* XL */
+@media (min-width: 1200px) {
+  .pub-img2 {
+    height: 360px;
+    top: -210px;
+  }
+
+  .carousel-caption {
+    bottom: 2rem;
+  }
+}
+
+/* XXL */
+@media (min-width: 1400px) {
+  .pub-img2 {
+    height: 420px;
+    top: -380px;
+  }
+
+  .carousel-caption {
+    bottom: 2rem;
+  }
+}
+
+
+.hamburguesa {
+  border: 2px solid var(--color-ambar);
+}
+
+.hamburguesa .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,179,71, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.imgNosotros {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: top;
+}
+
+.imgNosotros:hover {
+  filter: sepia(50);
+}
+
+.cardNosotros {
+  background-color: transparent;
+  border: none;
+  font-weight: 100;
+  color: var(--color-ambar);
+}
+
+.linkNosotros {
+  color: var(--color-ambar);
+}
+
+.linkNosotros:hover {
+  color: var(--color-burdeos);
+  text-decoration-line: underline;
+}
+
+.mainNosotros {
+  color: var(--color-ambar);
+  text-align: justify;
+}
+
+.resaltadoNosotros {
+  color: #f59714;
+  font-weight: 800;
+}
+/* video de vino*/
+
+.video-bebidas {
+  position: relative;
+  overflow: hidden;
+  max-height: 400px;
+}
+
+.video-bebidas video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@media (min-width: 1200px) {
+  body.cervezas1 .video-bebidas video {
+    position: relative;
+    top: -300px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body.whisky .video-bebidas video {
+    position: relative;
+    top: -300px;
+  }
+}
