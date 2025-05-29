@@ -447,10 +447,7 @@ section.container.d-md-flex {
   position: relative;
   overflow: hidden;
   max-height: 400px;
-  width: 75%;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  margin: auto;
+  
 }
 
 .video-bebidas video {
@@ -458,4 +455,11 @@ section.container.d-md-flex {
   height: 100%;
   object-fit: cover;
   display: block;
+}
+
+@media (min-width: 1200px) {
+  body.cervezas1 .video-bebidas video {
+    position: relative;
+    top: -300px;
+  }
 }
